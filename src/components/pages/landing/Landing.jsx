@@ -1,6 +1,8 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import D from '../../../assets/images/D-green'
+import React from 'react'
+import { Link } from 'react-router-dom'
+import D from '../../../assets/images/D-green.png'
+import L from '../../../assets/images/L-green.png'
+import N from '../../../assets/images/N-green.png'
 
 function Landing(){
 
@@ -17,11 +19,25 @@ function Landing(){
 
   return (
     <div className='landing'>
-      <div style={{paddingTop: '10vh'}} >
+      <div >
         <Link to="/home">
           <img  
             src={D} 
             alt='D' 
+            onMouseOver={mouseLogo}
+            onClick={clickLogo}
+          >
+          </img>
+          <img  
+            src={L} 
+            alt='L' 
+            onMouseOver={mouseLogo}
+            onClick={clickLogo}
+          >
+          </img>
+          <img  
+            src={N} 
+            alt='N' 
             onMouseOver={mouseLogo}
             onClick={clickLogo}
           >
