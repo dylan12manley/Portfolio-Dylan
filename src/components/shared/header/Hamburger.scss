@@ -35,8 +35,8 @@
 }
 
 .ham-link { 
-  cursor: pointer;
-  padding: 1em;
+  // cursor: pointer;
+  width: 10vmin;
   color: white;
   font-weight: bold;
   font-size: 'calc(7px + 1vmin)';
@@ -45,4 +45,14 @@
 
 .link-p {
   padding: 0;
+}
+
+.link {
+  cursor: pointer;
+  padding: calc(.5em + 2px);
+  color: white;
+  font-weight: bold;
+  font-size: calc(7px + 1vmin);
+  font-family: Bungee;
+  overflow: visible;
 }

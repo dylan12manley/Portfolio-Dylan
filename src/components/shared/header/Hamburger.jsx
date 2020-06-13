@@ -2,25 +2,15 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import { Motion, spring } from 'react-motion';
-import '.Hamburger.scss';
+import './Hamburger.scss';
 
 const Drawer = styled.div`
   position: absolute;
-  height: 90%;
-  background: black;
-  width: 22vw;
+  height: 150px; 
+  width: 14vw;
+  max-width: 100px;
   left: ${props => props.left}vh;
 `;
-
-const LinkStz = {
-  cursor: "pointer",
-  padding: "calc(.5em + 2px)",
-  color: 'white',
-  fontWeight: 'bold',
-  fontSize: 'calc(7px + 1vmin)',
-  fontFamily: 'Bungee',
-  overflow: 'visible',
-}
 
 class Hamburger extends React.Component {
     constructor(props) {
@@ -62,9 +52,9 @@ class Hamburger extends React.Component {
           {style => (
             <div className='drawer'>
             <Drawer left={style.left}>
-              <p className='link-p'><Link to="/art" style={LinkStz}>Code</Link></p>
-              <p className='link-p'><Link to="/fashion" style={LinkStz}>Music</Link></p>
-              <p className='link-p'><Link to="/film" style={LinkStz}>Art</Link></p>
+              <p className='link-p'><Link to="/art" className='link'>Code</Link></p>
+              <p className='link-p'><Link to="/fashion" className='link'>Music</Link></p>
+              <p className='link-p'><Link to="/film" className='link'>Art</Link></p>
             </Drawer>
             </div>
           )}
