@@ -1,6 +1,7 @@
 .container {
   display: inline-block;
   cursor: pointer;
+  margin: 12px;
 }
 
 .bar1,
@@ -9,7 +10,6 @@
   width: 35px;
   height: 5px;
   margin: 6px 0;
-  transition: 0.4s;
 }
 
 .bar1:hover,
@@ -20,15 +20,18 @@
 
 .bar1 {
   background-color: grey;
+  transition: 0.4s;
 }
 
 .bar2 {
   background-color: #333333;
+  transition: 0.4s;
 }
 
 .bar3 {
   background-color: black;
   height: 6px;
+  transition: 1s;
 }
 
 .change .bar1 {
