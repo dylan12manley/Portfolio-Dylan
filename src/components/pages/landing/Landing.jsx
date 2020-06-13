@@ -20,7 +20,7 @@ function Landing(){
 
   return (
     <div className='landing'>
-      <div >
+      <div className='letters'>
         <Link to="/home">
           <img  
             src={D} 
