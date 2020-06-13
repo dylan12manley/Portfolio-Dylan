@@ -1,18 +1,18 @@
 import React from 'react'
 import Header from '../../shared/header/Header'
-import './Code.scss'
+import './Self.scss'
 
-function Code(){
+function Self(){
 
 
   return (
     <div>
       <Header/>
-      <div id='code'>  
-        <h2>Code Page</h2>      
+      <div id='self'>  
+        <h2>Self Page</h2>      
       </div>
     </div>
   );      
 }
 
-export default Code
+export default Self

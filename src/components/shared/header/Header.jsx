@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { Row, Col } from 'antd'
 import Hamburger from './Hamburger'
 
 import './Header.scss'

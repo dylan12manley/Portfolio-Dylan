@@ -52,9 +52,10 @@ class Hamburger extends React.Component {
           {style => (
             <div className='drawer'>
             <Drawer left={style.left}>
-              <p className='link-p'><Link to="/art" className='link'>Code</Link></p>
-              <p className='link-p'><Link to="/fashion" className='link'>Music</Link></p>
-              <p className='link-p'><Link to="/film" className='link'>Art</Link></p>
+              <p className='link-p'><Link to="/self" className='link'>Self</Link></p>
+              <p className='link-p'><Link to="/code" className='link'>Code</Link></p>
+              <p className='link-p'><Link to="/music" className='link'>Music</Link></p>
+              <p className='link-p'><Link to="/art" className='link'>Art</Link></p>
             </Drawer>
             </div>
           )}
