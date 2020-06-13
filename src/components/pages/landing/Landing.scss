@@ -1,7 +1,9 @@
 .landing {
-    background: rgb(255,222,122);
-    background: linear-gradient(0deg, rgba(255,222,122,0.52) 0%, rgba(0,0,0,0.72) 54%, rgba(0,0,0,0.17) 85%, rgba(0,0,0,0.95) 100%) url("../../../assets/images/BG.png");
+    background-image: 
+        linear-gradient(-4deg, rgba(255,222,122,0.89) 0%, rgba(0,0,0,0.85) 18%, rgba(0,0,0,0.87) 89%, rgba(0,0,0,0.95) 100%),
+        url("../../../assets/images/BG.png");
     height: 100vh;
+    width: 100vw;
 }
 .dln {
     height: 30vmin;
