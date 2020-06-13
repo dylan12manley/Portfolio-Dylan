@@ -12,6 +12,7 @@ const Drawer = styled.div`
   margin-top: 40px;
   margin-left: calc(20px + 2vmin);
   top: ${props => props.top}vh;
+  z-index: 1;
 `;
 
 class Hamburger extends React.Component {
