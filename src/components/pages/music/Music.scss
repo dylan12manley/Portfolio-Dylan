@@ -1,3 +1,16 @@
 #music {
-    margin-top: 50px;
+    background-image: 
+        linear-gradient(180deg, rgba(255,222,122,0.99) 8%, rgba(0,0,0,0.85) 16%, rgba(0,0,0,0.87) 89%, rgba(0,0,0,0.95) 100%),
+        url("../../../assets/images/BG.png");
+    background-size: cover;
+    background-position-y: bottom;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.music-body {
+    text-align: right;
+    margin-top: 30px;
+    padding: 10px;
 }

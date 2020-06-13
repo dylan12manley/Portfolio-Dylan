@@ -1,4 +1,4 @@
-.home {
+#home {
     background-image: 
         linear-gradient(180deg, rgba(255,222,122, .98) 7%, rgba(0,0,0,0.95) 15%, rgba(0,0,0,0.92) 89%, rgba(0,0,0,0.95) 100%),
         url("../../../assets/images/BG.png");
@@ -8,4 +8,9 @@
     margin-top: 0;
     position: fixed;
     top: 0
+}
+
+.home-body {
+    margin-top: 50px;
+    text-align: right;;
 }

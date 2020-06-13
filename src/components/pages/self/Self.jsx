@@ -6,9 +6,9 @@ function Self(){
 
 
   return (
-    <div>
+    <div id='self'>
       <Header/>
-      <div id='self'>  
+      <div className='self-body'>  
         <h2>Self Page</h2>      
       </div>
     </div>

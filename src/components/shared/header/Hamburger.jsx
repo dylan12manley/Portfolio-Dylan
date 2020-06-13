@@ -9,7 +9,9 @@ const Drawer = styled.div`
   height: 150px; 
   width: 14vw;
   max-width: 100px;
-  left: ${props => props.left}vh;
+  margin-top: 40px;
+  margin-left: calc(20px + 2vmin);
+  top: ${props => props.top}vh;
 `;
 
 class Hamburger extends React.Component {
@@ -41,9 +43,9 @@ class Hamburger extends React.Component {
         </div>
             
         <Motion
-          defaultStyle={{ left: -40 }}
+          defaultStyle={{ top: -40 }}
           style={{
-              left: spring(this.state.toggleState ? 0 : -40, {
+              top: spring(this.state.toggleState ? 0 : -40, {
               stiffness: 210,
               damping: 10
             })
@@ -51,11 +53,11 @@ class Hamburger extends React.Component {
         >
           {style => (
             <div className='drawer'>
-            <Drawer left={style.left}>
+            <Drawer top={style.top}>
               <p className='link-p'><Link to="/self" className='link'>Self</Link></p>
               <p className='link-p'><Link to="/code" className='link'>Code</Link></p>
               <p className='link-p'><Link to="/music" className='link'>Music</Link></p>
-              <p className='link-p'><Link to="/art" className='link'>Art</Link></p>
+              <p className='link-p'><Link to="/home" className='link'>Home</Link></p>
             </Drawer>
             </div>
           )}

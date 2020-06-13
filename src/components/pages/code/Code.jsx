@@ -6,9 +6,9 @@ function Code(){
 
 
   return (
-    <div>
+    <div id='code'>
       <Header/>
-      <div id='code'>  
+      <div className='code-body'>  
         <h2>Code Page</h2>      
       </div>
     </div>

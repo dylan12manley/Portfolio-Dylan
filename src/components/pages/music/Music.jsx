@@ -6,9 +6,9 @@ function Music(){
 
 
   return (
-    <div>
+    <div id='music'>
       <Header/>
-      <div id='music'>  
+      <div className='music-body'>  
         <h2>Music Page</h2>      
       </div>
     </div>
