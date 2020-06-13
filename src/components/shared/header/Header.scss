@@ -2,18 +2,35 @@
   padding-top: 5px;
 }
 
-  .header {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    background-image: 
-        linear-gradient(0deg, rgba(255,222,122,0.98) 5%, rgba(255,222,122,0.89) 28%, rgba(0,0,0,0.87) 89%, rgba(0,0,0,0.95) 100%),
-        url("../../../assets/images/noise-header.png");
-    background-color:  rgb(255,222,122);
-    color: #D2E8CC;
-    height: 50px;
-    padding-top: 0px;
-    width: 100%;
-    display: inline-flex;
-    text-align: center;
-  }
+.header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-image: 
+      linear-gradient(0deg, rgba(255,222,122,0.98) 5%, rgba(255,222,122,0.89) 28%, rgba(0,0,0,0.87) 89%, rgba(0,0,0,0.95) 100%),
+      url("../../../assets/images/noise-header.png");
+  background-color:  rgb(255,222,122);
+  color: #D2E8CC;
+  height: 50px;
+  padding-top: 0px;
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+}
+
+.name {
+  margin-left: 40vw;
+}
+
+.name-link  {
+  color: white;
+  text-decoration: none;
+  font-size: calc(12px + 3vmin);
+  transition: color 1s;
+  position: absolute;
+  top: 15px;
+}
+
+.name-link:hover {
+  color: #96705B;
+}

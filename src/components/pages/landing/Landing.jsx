@@ -14,8 +14,8 @@ function Landing(){
       }
     
       function clickLogo(e) {
-        e.target.style.transform = 'rotate(-2deg)'
-        e.target.style.height= '72vmin'
+        e.target.style.transform = 'rotate(-90deg)'
+        
       }
 
   return (

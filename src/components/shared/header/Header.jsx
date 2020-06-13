@@ -10,16 +10,14 @@ function Header(){
   return (
     <>
     <div className='header'>
-      <Row style={{textAlign: 'center'}}>
-        <Col xs={12} sm={12} md={12} lg={12} xl={24}>
-          <Link to="/" > 
-            DLN
-          </Link>
-        </Col>
-        <Col  lg={8} xl={8}>
-          <Hamburger/>
-        </Col>
-      </Row>
+      <div>
+        <Hamburger/>
+      </div>
+      <div className='name'>
+        <Link to="/" className='name-link' > 
+          Dylan Manley
+        </Link>
+      </div>
     </div>
     </>
   );
