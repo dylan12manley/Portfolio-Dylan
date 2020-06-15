@@ -31,7 +31,6 @@ class Hamburger extends React.Component {
       });
     }
  
-
   render() {
     return (
       <div id="parent">
@@ -67,5 +66,6 @@ class Hamburger extends React.Component {
     );
   }
 }
+
 export default Hamburger;
   
