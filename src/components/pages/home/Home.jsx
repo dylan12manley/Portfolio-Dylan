@@ -9,7 +9,10 @@ function Home(){
     <div id='home'>
       <Header/>
       <div className='home-body'>  
-        <h2>Home Page</h2>      
+        <h2>Home Page</h2> 
+        <div>
+          
+        </div>     
       </div>
     </div>
   );      
