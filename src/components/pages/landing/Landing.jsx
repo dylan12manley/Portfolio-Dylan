@@ -46,10 +46,10 @@ function Landing(){
         <Link to="/self">
           <img src={M} alt='M' onMouseOver={mouseB} className='manley-imgs' onClick={clickLogo}></img>
           <img src={A} alt='A' onMouseOver={mouseA}className='manley-imgs' onClick={clickLogo}></img>
-          <img src={N} alt='N' onMouseOver={mouseC}className='manley-imgs' onClick={clickLogo}></img>
-          <img src={L} alt='L' onMouseOver={mouseD}className='manley-imgs' onClick={clickLogo}></img>
+          <img src={N} alt='N' onMouseOver={mouseC}className='manley-img-n' onClick={clickLogo}></img>
+          <img src={L} alt='L' onMouseOver={mouseD}className='manley-img-l' onClick={clickLogo}></img>
           <img src={E} alt='E' onMouseOver={mouseA}className='manley-imgs' onClick={clickLogo}></img>
-          <img src={Y} alt='Y' onMouseOver={mouseB} className='manley-imgs' onClick={clickLogo}></img>  
+          <img src={Y} alt='Y' onMouseOver={mouseB} className='manley-img-y' onClick={clickLogo}></img>  
         </Link>
       </div>        
     </div>
