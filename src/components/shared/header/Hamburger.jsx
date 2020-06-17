@@ -9,7 +9,7 @@ const Drawer = styled.div`
   height: 150px; 
   width: 14vw;
   max-width: 100px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: calc(20px + 2vmin);
   top: ${props => props.top}vh;
   z-index: 1;
@@ -43,10 +43,10 @@ class Hamburger extends React.Component {
         </div>
             
         <Motion
-          defaultStyle={{ top: -40 }}
+          defaultStyle={{ top: -50 }}
           style={{
-              top: spring(this.state.toggleState ? 0 : -40, {
-              stiffness: 210,
+              top: spring(this.state.toggleState ? 0 : -70, {
+              stiffness: 100,
               damping: 10
             })
           }}
