@@ -18,8 +18,20 @@
   text-align: center;
 }
 
+.full-name {
+  position: fixed;
+  left: 42%;
+  transform: translateX(-42%);
+  padding-right: 200px;
+  z-index: 1;
+}
 .name {
-  margin-left: 30vw;
+  height: 70px;
+}
+
+.dylan {
+  padding-right: 20px;
+  height: 80px;
 }
 
 .name-link  {
