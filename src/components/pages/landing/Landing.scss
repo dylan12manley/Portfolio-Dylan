@@ -1,16 +1,26 @@
-.landing {
-    // background-image: 
-    //     linear-gradient(-1deg, rgba(255,222,122,0.89) 0%, rgba(0,0,0,0.85) 16%, rgba(0,0,0,0.87) 89%, rgba(0,0,0,0.95) 100%),
-    //     url("../../../assets/images/BG.png");
-    // background-size: cover;
-    height: 100vh;
-    width: 100vw;
+#landing {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
     overflow: hidden;
     padding: 10vmin;
 }
+
+.first-name {
+    padding-left: 5vw;
+}
+
 .dylan-imgs {
     height: 40vh;
     max-width: 14vw;
+}
+
+.dylan-n {
+    transform: rotate(180deg);
+}
+
+.seccond-name {
+    padding-top: 2vh;
 }
 .manley-imgs {
     width: 14vw;
@@ -21,17 +31,23 @@
 }
 
 .manley-img-l {
-    width: 14vw;
-    height: 24vh;
+    width: 12vw;
+    height: 28vh;
 }
 .manley-img-y {
     width: 14vw;
-    height: 26vh;
+    height: 30vh;
 }
 .manley-img-n {
-    width: 14vw;
-    height: 24vh;
+    width: 12vw;
+    height: 28vh;
+    transform: rotate(180deg);
 }
+
+.manley-img-e {
+    width: 10vw;
+}
+
 .letters {
     padding-top: 20vh; 
     padding-left: 15vw;
