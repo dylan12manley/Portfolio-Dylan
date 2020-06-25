@@ -9,7 +9,23 @@
     top: 65px;
 }
 
-.home-body {
-    margin-top: 20px;
-    text-align: right;;
+.home-grid {
+    margin-top: 50px;
+    text-align: right;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.g-itm {
+    width: 31vw;
+}
+
+.resume {
+    width: 28vw;
+}
+.github {
+    width: 30vw;
+}
+.linkedin {
+    width: 33vw;
 }
