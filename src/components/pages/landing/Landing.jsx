@@ -34,11 +34,13 @@ function Landing(){
       <div className='seccond-name'>
         <Link to="/self">
           <img src={M} alt='M' onMouseOver={mouseB} className='manley-img-m' onClick={clickLogo}></img>
-          <img src={A} alt='A' onMouseOver={mouseD} className='manley-imgs' onClick={clickLogo}></img>
-          <img src={N} alt='N' onMouseOver={mouseC} className='manley-img-n' onClick={clickLogo}></img>
-          <img src={L} alt='L' onMouseOver={mouseD} className='manley-img-l' onClick={clickLogo}></img>
-          <img src={E} alt='E' onMouseOver={mouseC} className='manley-imgs' onClick={clickLogo}></img>
-          <img src={Y} alt='Y' onMouseOver={mouseB} className='manley-img-y' onClick={clickLogo}></img>  
+          <div class='anley'>
+            <img src={A} alt='A' onMouseOver={mouseD} className='manley-imgs' onClick={clickLogo}></img><br/>
+            <img src={N} alt='N' onMouseOver={mouseC} className='manley-img-n' onClick={clickLogo}></img><br/>
+            <img src={L} alt='L' onMouseOver={mouseD} className='manley-img-l' onClick={clickLogo}></img><br/>
+            <img src={E} alt='E' onMouseOver={mouseC} className='manley-imgs' onClick={clickLogo}></img><br/>
+            <img src={Y} alt='Y' onMouseOver={mouseB} className='manley-img-y' onClick={clickLogo}></img>
+          </div> 
         </Link>
       </div>        
     </div>

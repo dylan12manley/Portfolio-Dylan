@@ -13,6 +13,7 @@
 .dylan-imgs {
     height: 40vh;
     max-width: 14vw;
+    max-height: 18vw;
 }
 
 .dylan-n {
@@ -21,6 +22,7 @@
 
 .seccond-name {
     padding-top: 2vh;
+    text-align: center;
 }
 .manley-imgs {
     width: 14vw;
@@ -31,21 +33,22 @@
 }
 
 .manley-img-l {
-    width: 12vw;
-    height: 28vh;
+    width: 10.5vw;
+    height: 13vh;
 }
 .manley-img-y {
     width: 14vw;
-    height: 30vh;
+    height: 16vw;
 }
 .manley-img-n {
-    width: 12vw;
-    height: 28vh;
+    width: 10vw;
+    height: 13vh;
     transform: rotate(180deg);
 }
 
 .manley-img-e {
-    width: 10vw;
+    width: 9vw;
+    height: 10vw;
 }
 
 .letters {
