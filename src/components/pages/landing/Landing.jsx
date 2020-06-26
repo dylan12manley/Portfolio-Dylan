@@ -64,7 +64,7 @@ function Landing(){
             <img src={A} 
               alt='A' 
               onMouseOver={mouseD} 
-              className='manley-imgs' 
+              className='dylan-imgs' 
               onClick={clickLogo}>
             </img>
             <img src={N} 
@@ -73,23 +73,24 @@ function Landing(){
               className='manley-img-n' 
               onClick={clickLogo}>
             </img>
-            <br/>
+         
             <img src={L} 
               alt='L' 
               onMouseOver={mouseD} 
               className='manley-img-l'
               onClick={clickLogo}>
             </img>
+            <br/>
             <img src={E} 
               alt='E' 
               onMouseOver={mouseC} 
-              className='manley-imgs' 
+              className='manley-img-e' 
               onClick={clickLogo}>
             </img>
             <img src={Y} 
               alt='Y' 
               onMouseOver={mouseB} 
-              className='manley-img-y'
+              className='manley-img-e'
               onClick={clickLogo}>
             </img>
           </div> 
