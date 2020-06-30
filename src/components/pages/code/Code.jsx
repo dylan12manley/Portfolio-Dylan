@@ -9,8 +9,7 @@ function Code(){
     <div id='code'>
       <Header/>
       <div className='code-body'>  
-        <h2>Code Page</h2>  
-        <img src=''>    
+        <h2>Code Page</h2>      
       </div>
     </div>
   );      
