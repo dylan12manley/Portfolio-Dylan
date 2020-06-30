@@ -13,12 +13,12 @@ function Landing(){
 
     function mouseA(e) {e.target.style.transform = 'rotate(-12deg)' 
                         e.target.style.width= '24vw'}
-      function mouseB(e) {e.target.style.transform = 'rotate(54deg)'}
-      function mouseC(e) {e.target.style.transform = 'rotate(272deg)' 
-                          e.target.style.height= '33vmin'}
-      function mouseD(e) {e.target.style.transform = 'rotate(3deg)' 
-                          e.target.style.height= '19vh'}
-      function clickLogo(e) {e.target.style.transform = 'rotate(-90deg)'}
+    function mouseB(e) {e.target.style.transform = 'rotate(54deg)'}
+    function mouseC(e) {e.target.style.transform = 'rotate(272deg)' 
+                        e.target.style.height= '33vmin'}
+    function mouseD(e) {e.target.style.transform = 'rotate(3deg)' 
+                        e.target.style.height= '19vh'}
+    function clickLogo(e) {e.target.style.transform = 'rotate(-90deg)'}
 
   return (
     <div id='landing'>
