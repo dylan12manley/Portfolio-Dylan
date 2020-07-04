@@ -21,17 +21,17 @@
 .full-name {
   position: fixed;
   left: 38%;
-  transform: translateX(-42%);
-  padding-right: 234px;
+  transform: translateX(-45%);
+  // padding-right: 234px;
   z-index: 1;
 }
 .name {
-  height: 70px;
+  height: calc(20px + 7vmin);
 }
 
 .dylan {
   padding-right: 20px;
-  height: 80px;
+  height: calc(30px + 7vmin);
 }
 
 .name-link  {
