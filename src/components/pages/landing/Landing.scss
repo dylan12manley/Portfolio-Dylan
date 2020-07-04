@@ -27,7 +27,7 @@
 
 .anley {
     min-height: 34vh;
-    padding-left: 30vw;
+    padding-left: calc(50px + 25vmin);
     margin-top: 10vh;
 }
 
@@ -38,7 +38,7 @@
 .manley-img-m {
     height: 34vh;
     position: absolute;
-    top: 34vh;
+    top: 36vh;
     left: 6vw;
 }
 
@@ -47,22 +47,18 @@
 }
 
 .manley-img-l {
-    width: 10.5vw;
-    height: 15.5vh;
+    height: 27.5vh;
 }
 .manley-img-y {
-    width: 14vw;
-    height: 16vw;
+    height: 26vmin;
 }
 .manley-img-n {
-    width: 10vw;
-    height: 15vh;
+    height: 25vmin;
     transform: rotate(180deg);
 }
 
 .manley-img-e {
-    width: 9vw;
-    height: 14vh;
+    height: 24vmin;
 }
 
 .letters {
