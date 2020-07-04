@@ -80,7 +80,6 @@ function Landing(){
               className='manley-img-l'
               onClick={clickLogo}>
             </img>
-            <br/>
             <img src={E} 
               alt='E' 
               onMouseOver={mouseC} 

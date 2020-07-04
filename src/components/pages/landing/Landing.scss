@@ -24,12 +24,22 @@
     padding-top: 2vh;
     text-align: center;
 }
+
+.anley {
+    min-height: 34vh;
+    padding-left: 30vw;
+    margin-top: 10vh;
+}
+
 .manley-imgs {
     width: 12vw;
 }
 
 .manley-img-m {
     height: 34vh;
+    position: absolute;
+    top: 34vh;
+    left: 6vw;
 }
 
 .manley-img-a {
