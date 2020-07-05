@@ -4,6 +4,8 @@ import './Home.scss'
 import github from '../../../assets/images/github.png'
 import linkedIn from '../../../assets/images/linkedin.png'
 import resume from '../../../assets/images/resume.png'
+import hillcrest from '../../../assets/images/hillcrest.png'
+import goalden from '../../../assets/images/goalden-logo.png'
 
 function Home(){
 
@@ -11,6 +13,10 @@ function Home(){
   return (
     <div id='home'>
       <Header/>
+      <div id='home-top'>
+        <img className='top-imgs'id='logo-hillcrest' src={hillcrest} alt='hillcrest sports'></img>  
+        <img className='top-imgs'id='logo-goalden' src={goalden} alt='goalden hour'></img> 
+      </div>
       <div className='home-grid'>  
         <a class='g-itm' href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'>
           <img class='resume' src={resume} alt='resume link'></img>  

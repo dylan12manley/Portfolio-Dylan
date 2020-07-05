@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import styled from 'styled-components';
 import { Motion, spring } from 'react-motion';
 import './Hamburger.scss';
+// import Home from '../../../assets/images/home.png';
+// import '../../../assets/images/'
+// import '../../../assets/images/'
 
 const Drawer = styled.div`
   position: absolute;
