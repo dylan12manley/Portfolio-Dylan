@@ -14,7 +14,7 @@ function Code(){
       <div className='code-body'>  
         <div id='code-top'>
           <a href='https://futuromagazine-be1ee.web.app/'>
-            <img className='top-imgs'
+            <img className='top-img'
               id='logo-futuro' 
               src={futuro} 
               alt='Futuro'>
@@ -22,14 +22,14 @@ function Code(){
           </a>
           <br/>
           <a href='https://hillcrestsports.com/'>
-            <img className='top-imgs'
+            <img className='seccond-imgs'
               id='logo-hillcrest' 
               src={hillcrest} 
               alt='hillcrest sports'>
             </img>  
           </a>
           <a href='https://goaldenhour.com/'>
-            <img className='top-imgs'
+            <img className='seccond-imgs'
               id='logo-goalden' 
               src={goalden} 
               alt='goalden hour'>

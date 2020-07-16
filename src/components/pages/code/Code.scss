@@ -15,11 +15,17 @@
     padding: 10px;
 }
 
-.top-imgs {
-    height: calc(20px + 30vmin);
-    padding: 12px;
+#logo-futuro {
+    position: absolute;
+    top: calc(128px + 7.5vmin);
+    left: calc(7.5vmin + 10px);
+    border-radius: 25px;
+    height: calc(30vmin + 20px);
 }
 
-#logo-futuro {
-    border-radius: 25px;
+.seccond-imgs {
+    position: relative;
+    top: calc(30vmin + 20px);
+    height: calc(20px + 30vmin);
+    padding: 12px;
 }
