@@ -23,6 +23,13 @@
     height: calc(30vmin + 20px);
 }
 
+.code-top-title {
+    position: absolute;
+    top: calc(150px + 7.5vmin);
+    left: calc(32vw + 200px);
+    color: white;
+    font-size: calc(30px + 5vmin);
+}
 .seccond-imgs {
     position: relative;
     top: calc(30vmin + 20px);
