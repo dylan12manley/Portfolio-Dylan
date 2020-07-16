@@ -20,7 +20,12 @@ function Code(){
               alt='Futuro'>
             </img>
           </a>
-          <br/>
+          <h1 className='code-top-title'>Futuro <br/> Magazine</h1>
+          <div className='code-top-teaser'>
+
+          </div>
+        </div>
+        <div className='code-middle'>
           <a href='https://hillcrestsports.com/'>
             <img className='seccond-imgs'
               id='logo-hillcrest' 
