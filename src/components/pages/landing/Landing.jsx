@@ -18,6 +18,16 @@ function Landing(){
                         e.target.style.height= '33vmin'}
     function mouseD(e) {e.target.style.transform = 'rotate(3deg)' 
                         e.target.style.height= '19vh'}
+    function mouseM(e) {e.target.style.transform = 'rotate(-1.23deg)' 
+                        e.target.style.height= '55vmin'
+                        e.target.style.transition= '1.5s'}
+    function mouseN(e) {e.target.style.transition= '5.5s'
+                        e.target.style.transform = 'rotate(-12.3deg)'
+                        e.target.style.position= 'relative' 
+                        e.target.style.height= '12vmin'
+                        e.target.style.top= '-30vmin'
+                        e.target.style.right= '-17vmin'
+                      }
     function clickLogo(e) {e.target.style.transform = 'rotate(-90deg)'}
 
   return (
@@ -59,11 +69,11 @@ function Landing(){
       
       <div className='seccond-name'>
         <Link to="/self">
-          <img src={M} alt='M' onMouseOver={mouseB} className='manley-img-m' onClick={clickLogo}></img>
+          <img src={M} alt='M' onMouseOver={mouseM} className='manley-img-m' onClick={clickLogo}></img>
           <div class='anley'>
             <img src={A} 
               alt='A' 
-              onMouseOver={mouseD} 
+              onMouseOver={mouseN} 
               className='manley-img-a' 
               onClick={clickLogo}>
             </img>
