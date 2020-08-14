@@ -14,6 +14,9 @@ function Home(){
       <div id='home-top'>
       </div>
       <div className='home-grid'>  
+        <div> 
+          
+        </div>
         <a class='g-itm' href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'>
           <img class='resume' src={resume} alt='resume link'></img>  
         </a>     
