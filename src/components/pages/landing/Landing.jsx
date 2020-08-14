@@ -28,6 +28,8 @@ function Landing(){
                         e.target.style.top= '-30vmin'
                         e.target.style.right= '-17vmin'
                       }
+    function mouseO(e) {e.target.style.transition = '8s'
+                        e.target.style.transform = 'rotate(-900deg)'}
     function clickLogo(e) {e.target.style.transform = 'rotate(-90deg)'}
 
   return (
@@ -98,7 +100,7 @@ function Landing(){
             </img>
             <img src={Y} 
               alt='Y' 
-              onMouseOver={mouseB} 
+              onMouseOver={mouseO} 
               className='manley-img-e'
               onClick={clickLogo}>
             </img>
