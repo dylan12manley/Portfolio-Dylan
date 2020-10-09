@@ -7,32 +7,28 @@
     width: 100vw;
     position: fixed;
     top: 65px;
+    text-align: center;
 }
-
-#home-top {
-    position: fixed;
-    left: 35vw;
-    margin-top: 100px;
-}
-
 
 .home-grid {
     margin-top: 140px;
-    text-align: right;
+    margin-left: 20vmin;;
     display: grid;
     grid-template-columns: auto auto auto;
+
 }
 
 .g-itm {
-    width: 31vw;
+    margin: 1vmin;
+    width: 25vw;
 }
 
 .resume {
     width: 28vw;
 }
 .github {
-    width: 30vw;
+    width: 25vw;
 }
-.linkedin {
-    width: 33vw;
+.starrats {
+    width: 25vw;
 }
