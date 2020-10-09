@@ -22,11 +22,11 @@
   position: fixed;
   left: 38%;
   transform: translateX(-45%);
-  // padding-right: 234px;
   z-index: 1;
 }
 .name {
   height: calc(20px + 7vmin);
+  transition: 1.8s;
 }
 
 .dylan {

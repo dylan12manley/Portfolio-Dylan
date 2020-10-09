@@ -8,6 +8,9 @@ import Manley from '../../../assets/images/manley.png'
 import './Header.scss'
 
 function Header(){
+  
+  function fullName(e) {
+    e.target.style.height = 'calc(40px + 10vmin)'}
 
   return (
     <>
@@ -16,9 +19,11 @@ function Header(){
         <Hamburger/>
       </div>
       <div className='full-name'>
-        <Link to="/" className='name-link' > 
-        <img src={Dylan} alt='Dylan' className='dylan name'></img>
-          <img src={Manley} alt='Manley' className='manley name'></img>
+        <Link 
+            to="/" 
+            className='name-link'> 
+          <img onMouseOver={fullName} src={Dylan} alt='Dylan' className='dylan name'></img>
+          <img onMouseOver={fullName} src={Manley} alt='Manley' className='manley name'></img>
         </Link>
       </div>
       <div>
