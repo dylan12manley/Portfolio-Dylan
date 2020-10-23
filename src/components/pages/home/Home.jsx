@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from '../../shared/header/Header'
+import GridA from './GridA'
 import './Home.scss'
+
+
 import github from '../../../assets/images/github.png'
 import starrats from '../../../assets/images/starrats.png'
 import resume from '../../../assets/images/resume.png'
@@ -11,6 +14,9 @@ function Home(){
   return (
     <div id='home'>
       <Header/>
+
+      <GridA/>
+
         <div className='home-grid'>  
             <a class='g-itm' href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'>
               <img class='resume' src={resume} alt='resume link'></img>  
