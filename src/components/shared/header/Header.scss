@@ -6,6 +6,7 @@
   position: fixed;
   z-index: 1;
   top: 0;
+  left: 0;
   background-image: 
       linear-gradient(0deg, rgba(255,222,122,0.89) 0%, rgba(255,222,122,0.79) 28%, rgba(0,0,0,0.87) 89%, rgba(0,0,0,0.95) 100%),
       url("../../../assets/images/noise-header.png");
@@ -57,4 +58,16 @@
   height: 12px;
   filter: invert(100%);
   z-index: -1;
+}
+
+@media only screen and (min-width: 767px) {
+  .full-name {
+    left: 28%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .full-name {
+    left: 33%;
+  }
 }
