@@ -11,16 +11,15 @@
 }
 
 .home-grid {
-    margin-top: 140px;
-    margin-left: 20vmin;;
+    margin: 10vmin;
+    margin-top: calc(140px + 10vmin);
     display: grid;
     grid-template-columns: auto auto auto;
-
 }
 
 .g-itm {
     margin: 1vmin;
-    width: 25vw;
+    // width: 25vw;
 }
 
 .resume {
@@ -28,7 +27,28 @@
 }
 .github {
     width: 25vw;
+    border-radius: 10%;
 }
-.starrats {
-    width: 25vw;
+.programing {
+    width: 32vw;
+    border-radius: 10%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home-grid {
+        grid-template-columns: auto auto;
+    }
+    .github {
+        background-color: aliceblue;
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .home-grid {
+        grid-template-columns: auto;
+    }
+    .github { 
+        margin-left: 0;
+    }    
 }
