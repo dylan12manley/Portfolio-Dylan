@@ -10,7 +10,7 @@ import './Header.scss'
 function Header(){
   
   function fullName(e) {
-    e.target.style.height = 'calc(40px + 10vmin)'}
+    e.target.style.height = 'calc(40px + 5vmin)'}
 
   return (
     <>
