@@ -15,7 +15,7 @@ function Header(){
   return (
     <>
     <div className='header'>
-      <div>
+      <div className='h-burg'>
         <Hamburger/>
       </div>
       <div className='full-name'>
