@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Landing from './pages/landing/Landing'
 import Home from './pages/home/Home'
 import Code from './pages/code/Code'
-import Music from './pages/music/Music'
-import Self from './pages/self/Self'
 import './App.css'
 
 class App extends React.Component {
@@ -17,8 +15,6 @@ class App extends React.Component {
           <Route exact path="/" component={Landing}/>
           <Route path="/home" component={Home}/>
           <Route path="/code" component={Code}/>
-          <Route path="/music" component={Music}/>
-          <Route path="/self" component={Self}/>
         </Switch>
       </Router>
       </div>
