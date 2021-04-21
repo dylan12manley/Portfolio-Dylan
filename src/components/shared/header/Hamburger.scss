@@ -73,25 +73,27 @@
   padding-top: 4px;
   color: #92BFB1;
   font-weight: bold;
-  font-size: calc(12px + 1.2vmin);
+  font-size: calc(12px + 2.2vmin);
   overflow: visible;
   text-decoration: none;
   transition: color 1s;
-  text-shadow: .5px .7px #DAD6D6;
+//   text-shadow: .5px .7px #DAD6D6;
 }
 
 .link:hover {
   color: #96705B;
 }
 
-.link-a {
+.code {
   color: #172722;
 }
 
-.link-b {
-  color: #4B8170;
+.home {
+  color: #CCE1DA;
 }
 
-.link-c {
-  color: #CCE1DA;
+@media only screen and (min-width: 1000px) {
+  .drawer {
+    margin-left: 40%;
+  }
 }
