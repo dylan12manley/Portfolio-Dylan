@@ -71,7 +71,12 @@ function Landing(){
       
       <div className='seccond-name'>
         <Link to="/self">
-          <img src={M} alt='M' onMouseOver={mouseM} className='manley-img-m' onClick={clickLogo}></img>
+          <img src={M} 
+              alt='M' 
+              onMouseOver={mouseM} 
+              className='manley-img-m' 
+              onClick={clickLogo}>
+              </img>
           <div class='anley'>
             <img src={A} 
               alt='A' 
@@ -85,7 +90,6 @@ function Landing(){
               className='manley-img-n' 
               onClick={clickLogo}>
             </img>
-         
             <img src={L} 
               alt='L' 
               onMouseOver={mouseD} 
