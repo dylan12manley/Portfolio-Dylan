@@ -12,7 +12,7 @@ function Home(){
     <div id='home'>
       <Header/>
       <div className='home-grid'>  
-        <a id='programing' class='g-itm' href='https://www.linkedin.com/in/dylan-manley-pdx/'>
+        <a id='programing' class='g-itm' href='/code'>
           <img class='programing' src={programing} alt='programing link'></img>  
         </a>  
         <a id='resume' class='g-itm' href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'>
