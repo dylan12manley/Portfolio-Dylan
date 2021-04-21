@@ -76,30 +76,28 @@
 
 
 @media only screen and (max-width: 425px) {
-    .manley-img-m {
-        height: 26vmin;
-        top: 26%;
-        left: 35%;
-    }
-
     .anley {
         position: absolute;
         top: 250px;
         width: 50vw;
         right: 20vw;
     }
-
     .manley-img-a {
         height: 90px;
     }
-
     .manley-img-l {
         height: 90px;
     }
-
     .dylan-imgs {
         max-width: 20vw;
         max-height: 24vw;
     }
+}
 
+@media only screen and (max-width: 1025px) {
+    .manley-img-m {
+        height: 26vmin;
+        top: 26%;
+        left: 35%;
+    }
 }
