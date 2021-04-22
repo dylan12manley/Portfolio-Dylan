@@ -70,7 +70,7 @@ function Landing(){
       {/* thisa middle of the landing page verticaly ways*/}
       
       <div className='seccond-name'>
-        <Link to="/self">
+        <Link to="/home">
           <img src={M} 
               alt='M' 
               onMouseOver={mouseM} 
