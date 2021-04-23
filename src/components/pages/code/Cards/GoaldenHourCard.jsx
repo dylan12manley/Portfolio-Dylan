@@ -30,10 +30,10 @@ export default function FuturoCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Hillcrest Sports
+            Goalden Hour
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Made with a BigCommerce template using Javascript, Handlebars, jQuery,and more. It’s  an E-commerce site for an outdoor sports shop in Gresham Oregon. <a href='https://hillcrestsports.com/'>Hillcrest Sports</a>
+          Made using React, Mobx, Typescript, Ant Design Library, AWS Serverless, and more. It’s a life coaching app that helps you achieve goals by setting and completing routines and tasks. <a href='https://goaldenhour.com/'>Goalden Hour</a>
           </Typography>
         </CardContent>
       </CardActionArea>
