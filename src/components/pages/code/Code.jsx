@@ -11,10 +11,16 @@ function Code(){
   return (
     <div id='code'>
       <Header/>
-      <div className='code-body'>  
-        <FuturoCard/> 
-        <HillcrestCard/>  
-        <GoaldenCard/>   
+      <div className='code-body'>
+        <div className='card'>  
+          <FuturoCard/> 
+        </div>
+        <div className='card'> 
+          <HillcrestCard/>  
+        </div>
+        <div className='card'>  
+          <GoaldenCard/>   
+        </div>
       </div>
     </div>
   );      
