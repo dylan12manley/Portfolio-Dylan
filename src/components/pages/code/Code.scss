@@ -10,7 +10,11 @@
 }
 
 .code-body {
-    text-align: center;
-    margin-top: 175px;
+    margin-top: calc(120px + 10vmin);
     padding: 10px;
+    display: grid;
+}
+
+.card {
+    padding-top: 5vmin;
 }
