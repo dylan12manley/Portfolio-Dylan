@@ -10,28 +10,26 @@ import M from '../../../assets/images/m-black.png'
 import E from '../../../assets/images/e-black.png'
 
 function Landing(){
-
-    function mouseA(e) {e.target.style.transform = 'rotate(-12deg)' 
-                        e.target.style.width= '24vw'}
-    function mouseB(e) {e.target.style.transform = 'rotate(54deg)'}
-    function mouseC(e) {e.target.style.transform = 'rotate(272deg)' 
-                        e.target.style.height= '33vmin'}
-    function mouseD(e) {e.target.style.transform = 'rotate(3deg)' 
-                        e.target.style.height= '19vh'}
-    function mouseM(e) {e.target.style.transform = 'rotate(-1.23deg)' 
-                        e.target.style.height= '55vmin'
-                        e.target.style.transition= '1.5s'}
-    function mouseN(e) {e.target.style.transition= '5.5s'
-                        e.target.style.transform = 'rotate(-12.3deg)'
-                        e.target.style.position= 'relative' 
-                        e.target.style.height= '12vmin'
-                        e.target.style.top= '-30vmin'
-                        e.target.style.right= '-17vmin'
-                      }
-    function mouseO(e) {e.target.style.transition = '8s'
-                        e.target.style.transform = 'rotate(-900deg)'}
-    function clickLogo(e) {e.target.style.transform = 'rotate(-90deg)'}
-
+  function mouseA(e) {e.target.style.transform = 'rotate(-12deg)' 
+                      e.target.style.width= '24vw'}
+  function mouseB(e) {e.target.style.transform = 'rotate(54deg)'}
+  function mouseC(e) {e.target.style.transform = 'rotate(272deg)' 
+                      e.target.style.height= '33vmin'}
+  function mouseD(e) {e.target.style.transform = 'rotate(3deg)' 
+                      e.target.style.height= '19vh'}
+  function mouseM(e) {e.target.style.transform = 'rotate(-1.23deg)' 
+                      e.target.style.height= '55vmin'
+                      e.target.style.transition= '1.5s'}
+  function mouseN(e) {e.target.style.transition= '5.5s'
+                      e.target.style.transform = 'rotate(-12.3deg)'
+                      e.target.style.position= 'relative' 
+                      e.target.style.height= '12vmin'
+                      e.target.style.top= '-30vmin'
+                      e.target.style.right= '-17vmin'
+                    }
+  function mouseO(e) {e.target.style.transition = '8s'
+                      e.target.style.transform = 'rotate(-900deg)'}
+  function clickLogo(e) {e.target.style.transform = 'rotate(-90deg)'}
   return (
     <div id='landing'>
       <div className='first-name'>
@@ -66,9 +64,6 @@ function Landing(){
             className='dylan-imgs dylan-n' onClick={clickLogo}></img>
         </Link>
       </div>
-
-      {/* thisa middle of the landing page verticaly ways*/}
-      
       <div className='seccond-name'>
         <Link to="/home">
           <img src={M} 
