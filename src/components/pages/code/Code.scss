@@ -10,11 +10,27 @@
 }
 
 .code-body {
-    margin-top: calc(120px + 10vmin);
-    padding: 10px;
+    margin: 3vmin;
+    padding-top: calc(120px + 10vmin);
     display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
 }
 
 .card {
-    padding-top: 5vmin;
+    padding: 2.5vmin;
+}
+@media only screen and (max-width: 1105px) {
+    .code-body {
+      grid-template-columns: auto auto;   
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .code-body {
+      grid-template-columns: auto;    
+    }
+    .card {
+      padding-left: 0; 
+    }
 }
