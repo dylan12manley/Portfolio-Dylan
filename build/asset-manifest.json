@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.685254ba.chunk.css",
+    "main.js": "/static/js/main.813bc04e.chunk.js",
+    "main.js.map": "/static/js/main.813bc04e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.33727f1d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.33727f1d.js.map",
+    "static/js/2.07676838.chunk.js": "/static/js/2.07676838.chunk.js",
+    "static/js/2.07676838.chunk.js.map": "/static/js/2.07676838.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.03de25a7d2ada0566cdee66afb2d1b9e.js": "/precache-manifest.03de25a7d2ada0566cdee66afb2d1b9e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.685254ba.chunk.css.map": "/static/css/main.685254ba.chunk.css.map",
+    "static/js/2.07676838.chunk.js.LICENSE.txt": "/static/js/2.07676838.chunk.js.LICENSE.txt",
+    "static/media/Code.scss": "/static/media/BG.1b854153.png",
+    "static/media/a-black.png": "/static/media/a-black.8e43cc8b.png",
+    "static/media/black-band.png": "/static/media/black-band.27a268a2.png",
+    "static/media/d-black.png": "/static/media/d-black.293f063d.png",
+    "static/media/dylan.png": "/static/media/dylan.e4421147.png",
+    "static/media/e-black.png": "/static/media/e-black.2011d098.png",
+    "static/media/futuro.jpg": "/static/media/futuro.06e603d3.jpg",
+    "static/media/goalden-logo.png": "/static/media/goalden-logo.613c9125.png",
+    "static/media/hillcrest.png": "/static/media/hillcrest.c860beb4.png",
+    "static/media/l-black.png": "/static/media/l-black.068f235f.png",
+    "static/media/m-black.png": "/static/media/m-black.d7918368.png",
+    "static/media/manley.png": "/static/media/manley.a18841eb.png",
+    "static/media/n-black.png": "/static/media/n-black.d9163096.png",
+    "static/media/Header.scss": "/static/media/noise-header.9c12806b.png",
+    "static/media/Home.scss": "/static/media/noise-yelo.391ad2dd.png",
+    "static/media/programing.png": "/static/media/programing.e24346d5.png",
+    "static/media/resume.png": "/static/media/resume.5cc1d3dd.png",
+    "static/media/Landing.scss": "/static/media/water-color-background.470c1460.png",
+    "static/media/y-black.png": "/static/media/y-black.baec5208.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33727f1d.js",
+    "static/js/2.07676838.chunk.js",
+    "static/css/main.685254ba.chunk.css",
+    "static/js/main.813bc04e.chunk.js"
+  ]
+}
