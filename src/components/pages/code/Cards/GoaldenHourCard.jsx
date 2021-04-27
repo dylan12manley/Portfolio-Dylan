@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     maxWidth: 345,
   },
   media: {
-    height: 140,
+    height: 250,
   },
 });
 
@@ -33,7 +33,7 @@ export default function FuturoCard() {
             Goalden Hour
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Made using React, Mobx, Typescript, Ant Design Library, AWS Serverless, and more. It’s a life coaching app that helps you achieve goals by setting and completing routines and tasks. <a href='https://goaldenhour.com/'>Goalden Hour</a>
+          Made with a team using React, Mobx, Typescript, Ant Design Library, AWS Serverless, and more. It’s a life coaching app that helps you achieve goals by setting and completing routines and tasks. <a href='https://goaldenhour.com/'>Goalden Hour</a>
           </Typography>
         </CardContent>
       </CardActionArea>
