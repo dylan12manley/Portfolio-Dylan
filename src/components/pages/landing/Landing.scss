@@ -74,11 +74,28 @@
     padding-left: 15vw;
 }
 
+@media only screen and (max-width: 1460px) {
+    .manley-img-m {
+        height: 24vmin;
+        top: 46%;
+        left: 3%;
+    }
+}
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1025px) {
+    .manley-img-m {
+        height: 23vmin;
+        top: 15%;
+        left: 43%;
+    }
+    .manley-img-l {
+        height: 24vmin;
+    }
+}
+
+@media only screen and (max-width: 490px) {
     .anley {
         position: absolute;
-        top: 250px;
         width: 50vw;
         right: 20vw;
     }
@@ -92,12 +109,11 @@
         max-width: 20vw;
         max-height: 24vw;
     }
-}
-
-@media only screen and (max-width: 1025px) {
     .manley-img-m {
         height: 26vmin;
-        top: 26%;
-        left: 35%;
+        top: 15%;
+        left: 43%;
     }
 }
+
+
