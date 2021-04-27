@@ -33,10 +33,10 @@ export default function FuturoCard() {
             Hillcrest Sports
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-          Made with a BigCommerce template using Javascript, Handlebars, jQuery,and more. It’s  an E-commerce site for an outdoor sports shop in Gresham Oregon. <a href='https://hillcrestsports.com/'>Hillcrest Sports</a>
+          Made with a partner, using a BigCommerce template using Javascript, Handlebars, jQuery,and more. It’s  an E-commerce site for an outdoor sports shop in Gresham Oregon. <a href='https://hillcrestsports.com/'>Hillcrest Sports</a>
           </Typography>
         </CardContent>
       </CardActionArea>
     </Card>
   );
-}
+} 
