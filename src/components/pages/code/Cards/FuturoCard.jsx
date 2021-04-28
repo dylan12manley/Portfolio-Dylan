@@ -57,7 +57,7 @@ export default function FuturoCard() {
           title="Futuro Article Bottom"
         />
         <CardContent>
-          <a href='https://futuromagazine-be1ee.firebaseapp.com/'>Futuro Magazine</a>
+          <a href='https://futuromagazine-be1ee.firebaseapp.com/'>Visit Futuro Magazine</a>
         </CardContent>
       </CardActionArea>
     </Card>
