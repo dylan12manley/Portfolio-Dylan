@@ -6,49 +6,49 @@ import programing from '../../../assets/images/programing.png'
 import resume from '../../../assets/images/resume.png'
 
 function Home(){
-  const [isShowna, setIsShowna] = useState(false);
-  const [isShownb, setIsShownb] = useState(false);
-  const [isShownc, setIsShownc] = useState(false);
-
+  const [isShownA, setIsShownA] = useState(false);
+  const [isShownB, setIsShownB] = useState(false);
+  const [isShownC, setIsShownC] = useState(false);
+  
   return (
     <div id='home'>
       <Header/>
       <div className='home-grid'>  
         <a id='programing' 
-        class='g-itm' 
-        href='/code'
-        onMouseEnter={() => setIsShowna(true)}
-        onMouseLeave={() => setIsShowna(false)}>
+            class='g-itm' 
+            href='/code'
+            onMouseEnter={() => setIsShownA(true)}
+            onMouseLeave={() => setIsShownA(false)}>
           <img class='programing' src={programing} alt='programing link'></img>  
-          {isShowna && (
-        <div className='reveal'>
-          View my programming projects.
-        </div>
-      )}
+          {isShownA && (
+            <div className='reveal'>
+              View my programming projects.
+            </div>
+          )}
         </a>  
         <a id='resume' 
-        class='g-itm' 
-        href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'
-        onMouseEnter={() => setIsShownb(true)}
-        onMouseLeave={() => setIsShownb(false)}>
+            class='g-itm' 
+            href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'
+            onMouseEnter={() => setIsShownB(true)}
+            onMouseLeave={() => setIsShownB(false)}>
           <img class='resume' src={resume} alt='resume link'></img>  
-          {isShownb && (
-        <div className='reveal'>
-          View my resume.
-        </div>
-      )}
+          {isShownB && (
+            <div className='reveal'>
+              View my resume.
+            </div>
+          )}
         </a> 
         <a id='github' 
-        class='g-itm' 
-        href='https://github.com/dylan12manley'
-        onMouseEnter={() => setIsShownc(true)}
-        onMouseLeave={() => setIsShownc(false)}>
+            class='g-itm' 
+            href='https://github.com/dylan12manley'
+            onMouseEnter={() => setIsShownC(true)}
+            onMouseLeave={() => setIsShownC(false)}>
           <img class='github' src={github} alt='github link'></img>
-          {isShownc && (
-        <div className='reveal'>
-          View my Github.
-        </div>
-      )}  
+          {isShownC && (
+            <div className='reveal'>
+              View my Github.
+            </div>
+          )}  
         </a>          
       </div>
     </div>
