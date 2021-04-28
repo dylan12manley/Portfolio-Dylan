@@ -13,7 +13,7 @@ import futuro3 from '../../../../assets/images/futuro-3.png'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 425,
   },
   media: {
     height: 140,
