@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     backgroundColor: 'black',
   },
   media: {
-    height: 140,
+    height: 160,
   },
   img2: {
     height: 240,
