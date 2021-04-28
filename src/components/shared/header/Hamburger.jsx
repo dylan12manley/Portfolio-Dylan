@@ -54,9 +54,9 @@ class Hamburger extends React.Component {
           {style => (
             <div className='drawer'>
             <Drawer top={style.top}>
-              <p className='link-p'><Link to="/code" className='link code'>Code</Link></p>
-              <p className='link-p'><Link to="/" className='link landing'>Landing</Link></p>
-              <p className='link-p'><Link to="/home" className='link home'>Home</Link></p>
+              <h5 className='link-p'><Link to="/code" className='link code'>Code</Link></h5>
+              <h5 className='link-p'><Link to="/" className='link landing'>Landing</Link></h5>
+              <h5 className='link-p'><Link to="/home" className='link home'>Home</Link></h5>
             </Drawer>
             </div>
           )}
