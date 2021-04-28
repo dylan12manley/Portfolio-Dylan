@@ -7,10 +7,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
 import goalden from '../../../../assets/images/goalden-logo.png'
+import goalden2 from '../../../../assets/images/goalden2.png'
+import goalden3 from '../../../../assets/images/goalden3.png'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 425,
+    backgroundColor: '#f18e7e',
   },
   media: {
     height: 250,
@@ -32,9 +35,29 @@ export default function FuturoCard() {
           <Typography gutterBottom variant="h5" component="h2">
             Goalden Hour
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-          Made with a team using React, Mobx, Typescript, Ant Design Library, AWS Serverless, and more. It’s a life coaching app that helps you achieve goals by setting and completing routines and tasks. <a href='https://goaldenhour.com/'>Goalden Hour</a>
-          </Typography>
+          <p>
+            Made with a team using React, Mobx, Typescript, Ant Design Library, AWS Serverless, and more. It’s a life coaching app that helps you achieve goals by setting and completing routines and tasks. 
+          </p>
+        </CardContent>
+        <CardMedia
+          className={classes.media}
+          image={goalden2}
+          title="Goalden Hour"
+        />
+        <CardContent>
+          <p>
+            I was an intern on a full dev team in this project. It was a great expirence and I learned out how start-ups work and how to work in an agile work flow. 
+          </p>
+        </CardContent>
+        <CardMedia
+          className={classes.media}
+          image={goalden3}
+          title="Goalden Hour"
+        />
+        <CardContent>
+          <p>
+            <a className='card-link' href='https://goaldenhour.com/'>Visit Goalden Hour</a>
+          </p>
         </CardContent>
       </CardActionArea>
     </Card>
