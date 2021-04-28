@@ -15,11 +15,11 @@ function Home(){
       <Header/>
       <div className='home-grid'>  
         <a id='programing' 
-            class='g-itm' 
+            className='g-itm' 
             href='/code'
             onMouseEnter={() => setIsShownA(true)}
             onMouseLeave={() => setIsShownA(false)}>
-          <img class='programing' src={programing} alt='programing link'></img>  
+          <img className='programing' src={programing} alt='programing link'></img>  
           {isShownA && (
             <div className='reveal'>
               View my programming projects.
@@ -27,11 +27,11 @@ function Home(){
           )}
         </a>  
         <a id='resume' 
-            class='g-itm' 
+            className='g-itm' 
             href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'
             onMouseEnter={() => setIsShownB(true)}
             onMouseLeave={() => setIsShownB(false)}>
-          <img class='resume' src={resume} alt='resume link'></img>  
+          <img className='resume' src={resume} alt='resume link'></img>  
           {isShownB && (
             <div className='reveal'>
               View my resume.
@@ -39,13 +39,13 @@ function Home(){
           )}
         </a> 
         <a id='github' 
-            class='g-itm' 
+            className='g-itm' 
             href='https://github.com/dylan12manley'
             onMouseEnter={() => setIsShownC(true)}
             onMouseLeave={() => setIsShownC(false)}>
-          <img class='github' src={github} alt='github link'></img>
+          <img className='github' src={github} alt='github link'></img>
           {isShownC && (
-            <div className='reveal'>
+            <div className='reveal-g reveal'>
               View my Github.
             </div>
           )}  
