@@ -14,6 +14,7 @@ import futuro3 from '../../../../assets/images/futuro-3.png'
 const useStyles = makeStyles({
   root: {
     maxWidth: 425,
+    backgroundColor: 'black',
   },
   media: {
     height: 140,
@@ -35,9 +36,9 @@ export default function FuturoCard() {
           title="Futuro Magazine"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <h2>
             Futuro Magazine
-          </Typography>
+          </h2>
           <p>
           Made independently, using React, Redux, Javascript, and Firebase. Futuro Magazine is a digital platform, promoting culture, art and fashion.  
           </p>
@@ -49,15 +50,17 @@ export default function FuturoCard() {
         />
         <CardContent>
           <p>This was my final independent project for Epicodus. I made it for an old friend, Joesoph Hoover, based out of Melborn, Austrailia. </p>
-          <p> I have also created a seccond site for the writers portal. There is a login/sign up option, I created using firebase's authintication. The portal mirrors the main site but has extra features for users with special privilages, like access to custom forms used to create the articals and advertisements on the site.</p>
-        </CardContent>
-        <CardMedia
+          </CardContent>
+          <CardMedia
           className={classes.img2}
           image={futuro3}
           title="Futuro Article Bottom"
         />
+          <CardContent>
+          <p> I have also created a seccond site for the writers portal. There is a login/sign up option, I created using firebase's authintication. The portal mirrors the main site but has extra features for users with special privilages, like access to custom forms used to create the articals and advertisements on the site.</p>
+        </CardContent>
         <CardContent>
-          <a href='https://futuromagazine-be1ee.firebaseapp.com/'>Visit Futuro Magazine</a>
+          <p><a className='card-link' href='https://futuromagazine-be1ee.firebaseapp.com/'>Visit Futuro Magazine</a></p>
         </CardContent>
       </CardActionArea>
     </Card>
