@@ -72,7 +72,7 @@ function Landing(){
               className='manley-img-m' 
               onClick={clickLogo}>
               </img>
-          <div class='anley'>
+          <div className='anley'>
             <img src={A} 
               alt='A' 
               onMouseOver={mouseN} 
