@@ -35,6 +35,21 @@
     width: 32vw;
     border-radius: 10%;
 }
+a:link {
+    text-decoration: none;
+    color: #92BFB1;
+}
+  a:visited {
+      color: grey;
+}
+.reveal:hover {
+    transition: 1s;
+    color: #96705B;
+}
+.reveal {
+    font-size: 5vmin;
+    font-family: 'Roboto';
+}
 
 @media only screen and (max-width: 1200px) {
     .home-grid {
