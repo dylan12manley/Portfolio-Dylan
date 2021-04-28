@@ -4,7 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Typography from '@material-ui/core/Typography';
 
 import hillcrest from '../../../../assets/images/hillcrest.png'
 import hillcrest2 from '../../../../assets/images/hillcrest2.png'
@@ -13,6 +12,7 @@ import hillcrest3 from '../../../../assets/images/hillcrest3.png'
 const useStyles = makeStyles({
   root: {
     maxWidth: 425,
+    backgroundColor: 'grey',
   },
   media: {
     height: 300,
@@ -31,12 +31,8 @@ export default function FuturoCard() {
           title="Hillcrest Ski and Sports"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Hillcrest Sports
-          </Typography>
-          <p>
-          Made with a Robbie Cunningham, using a BigCommerce template with Javascript, Handlebars, React, jQuery,and more. 
-          </p>
+          <h2>Hillcrest Sports</h2>
+          <p>Made with a Robbie Cunningham, using a BigCommerce template with Javascript, Handlebars, React, jQuery,and more.</p>
         </CardContent>
         <CardMedia
           className={classes.media}
@@ -52,7 +48,7 @@ export default function FuturoCard() {
           title="Futuro Products"
         />
         <CardContent>
-          <p><a href='https://hillcrestsports.com/'>Visit Hillcrest Sports</a></p>
+          <p><a className='card-link' href='https://hillcrestsports.com/'>Visit Hillcrest Sports</a></p>
         </CardContent>
       </CardActionArea>
     </Card>
