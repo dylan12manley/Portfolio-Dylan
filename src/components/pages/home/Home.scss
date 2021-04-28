@@ -6,6 +6,7 @@
     height: 100vh;
     width: 100vw;
     position: fixed;
+    overflow: scroll;
     // top: 65px;
     text-align: center;
 }
@@ -25,12 +26,16 @@
 .resume {
     width: 28vw;
 }
+#github {
+    width: 27vw;
+}
 .github {
     width: 25vw;
     border-radius: 10%;
     background-color: white;
     padding: 15px;
 }
+
 .programing {
     width: 32vw;
     border-radius: 10%;
@@ -56,16 +61,20 @@ a:link {
         grid-template-columns: auto auto;
     }
     .github {
-        background-color: aliceblue;
         margin-left: 70%;
+    }
+    .reveal-g {
+        padding-left: 20vw;
+        width: 100%;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 440px) {
     .home-grid {
         grid-template-columns: auto;
+    } 
+    .github {
+        margin-left: 22vw;
     }
-    .github { 
-        margin-left: 0;
-    }    
 }
