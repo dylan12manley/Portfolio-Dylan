@@ -1,8 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
-import Hamburger from './Hamburger'
-import Band from '../../../assets/images/black-band.png'
-
 import './Footer.scss'
 
 function Footer(){
@@ -10,16 +6,15 @@ function Footer(){
   return (
     <>
     <div id='footer'>
-      <div>
-        <Hamburger/>
-      </div>
       <div className='name'>
-        <Link to="/" className='name-link' > 
-          Dylan Manley
-        </Link>
+        <h5>
+          Dylan.Manley@gmail.com
+        </h5>
       </div>
-      <div>
-        <img src={Band} className='b-band' alt='black band' />
+      <div className='number'>
+        <h5>
+          971-601-5878
+        </h5>
       </div>
     </div>
     </>
