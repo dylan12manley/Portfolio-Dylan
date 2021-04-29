@@ -4,7 +4,6 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-
 import hillcrest from '../../../../assets/images/hillcrest.png'
 import hillcrest2 from '../../../../assets/images/hillcrest2.png'
 import hillcrest3 from '../../../../assets/images/hillcrest3.png'
@@ -32,7 +31,7 @@ export default function FuturoCard() {
         />
         <CardContent>
           <h2>Hillcrest Sports</h2>
-          <p>Made with a Robbie Cunningham, using a BigCommerce template with Javascript, Handlebars, React, jQuery,and more.</p>
+          <p className='card-p'>Made with a Robbie Cunningham, using a BigCommerce template with Javascript, Handlebars, React, jQuery, and more.</p>
         </CardContent>
         <CardMedia
           className={classes.media}
@@ -40,7 +39,7 @@ export default function FuturoCard() {
           title="Hillcrest Homepage"
         />
         <CardContent>
-          <p>This is an E-commerce site for an outdoor sports shop in Gresham Oregon. This project also included a custom script, made in Python. The script runs automatically every 15 minutes and syncs the physical store's inventory, using Retail-Pro, with our website as well as the store's postings on third-party sites such as eBay and Sideline Swap.</p>
+          <p className='card-p'>This is an <span style={{whiteSpace: 'nowrap'}}>E-commerce</span> site for an outdoor sports shop in Gresham Oregon. This project also included a custom script, made in Python. The script runs automatically every 15 minutes and syncs the physical store's inventory, using Retail Pro, with our website as well as the store's postings on third-party sites such as eBay and Sideline Swap.</p>
         </CardContent>
         <CardMedia
           className={classes.media}
