@@ -8,12 +8,12 @@ function Footer(){
     <div id='footer'>
       <div className='name'>
         <h5>
-          Dylan.Manley@gmail.com
+          Dylan.Manley@gmail.com - 971.601.5878
         </h5>
       </div>
       <div className='number'>
         <h5>
-          971-601-5878
+          
         </h5>
       </div>
     </div>
