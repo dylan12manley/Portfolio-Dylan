@@ -1,5 +1,6 @@
 import React, { useState }  from 'react'
 import Header from '../../shared/header/Header'
+import Footer from '../../shared/footer/Footer'
 import './Home.scss'
 import { Link } from "react-router-dom";
 
@@ -53,6 +54,7 @@ function Home(){
           )}  
         </a>          
       </div>
+      <Footer/>
     </div>
   );      
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../shared/header/Header'
+import Footer from '../../shared/footer/Footer'
 import './Code.scss'
 import FuturoCard from './Cards/FuturoCard'
 import HillcrestCard from './Cards/HillcrestCard'
@@ -26,6 +27,7 @@ function Code(){
           <TaproomCard/>   
         </div>
       </div>
+      <Footer/>
     </div>
   );      
 }
