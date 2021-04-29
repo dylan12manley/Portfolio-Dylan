@@ -40,7 +40,7 @@ export default function FuturoCard() {
           title="Hillcrest Homepage"
         />
         <CardContent>
-          <p>This is an E-commerce site for an outdoor sports shop in Gresham Oregon. This project also included a custom script, made in Python. The script runs automatically every 15 minutes and syncs the phyisical stores invintory, using Retail-Pro, with our website as well as the store's postings on third party sites like Ebay and sideline swap.</p>
+          <p>This is an E-commerce site for an outdoor sports shop in Gresham Oregon. This project also included a custom script, made in Python. The script runs automatically every 15 minutes and syncs the physical store's inventory, using Retail-Pro, with our website as well as the store's postings on third-party sites such as eBay and Sideline Swap.</p>
         </CardContent>
         <CardMedia
           className={classes.media}

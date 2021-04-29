@@ -39,7 +39,7 @@ export default function FuturoCard() {
           title="Goalden Hour"
         />
         <CardContent>
-          <p>I was an intern on a full dev team in this project. It was a great expirence and I learned out how start-ups work and how to work in an agile work flow.</p>
+          <p>I was an intern on a full dev team in this project. It was a great experience and I learned out how start-ups work and how to work in an agile workflow.</p>
         </CardContent>
         <CardMedia
           className={classes.media}
