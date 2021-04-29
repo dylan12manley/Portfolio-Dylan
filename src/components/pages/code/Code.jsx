@@ -4,6 +4,7 @@ import './Code.scss'
 import FuturoCard from './Cards/FuturoCard'
 import HillcrestCard from './Cards/HillcrestCard'
 import GoaldenCard from './Cards/GoaldenHourCard'
+import TaproomCard from './Cards/TaproomCard'
 
 function Code(){
 
@@ -20,6 +21,9 @@ function Code(){
         </div>
         <div className='card'>  
           <GoaldenCard/>   
+        </div>
+        <div className='card'>  
+          <TaproomCard/>   
         </div>
       </div>
     </div>
