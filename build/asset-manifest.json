@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9e7b111.chunk.css",
-    "main.js": "/static/js/main.c9eeb60d.chunk.js",
-    "main.js.map": "/static/js/main.c9eeb60d.chunk.js.map",
+    "main.css": "/static/css/main.95b91e85.chunk.css",
+    "main.js": "/static/js/main.8e6701f1.chunk.js",
+    "main.js.map": "/static/js/main.8e6701f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.33727f1d.js",
     "runtime-main.js.map": "/static/js/runtime-main.33727f1d.js.map",
-    "static/js/2.829bda90.chunk.js": "/static/js/2.829bda90.chunk.js",
-    "static/js/2.829bda90.chunk.js.map": "/static/js/2.829bda90.chunk.js.map",
+    "static/js/2.402f942c.chunk.js": "/static/js/2.402f942c.chunk.js",
+    "static/js/2.402f942c.chunk.js.map": "/static/js/2.402f942c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dc5c5164024244b9ac873665c762caac.js": "/precache-manifest.dc5c5164024244b9ac873665c762caac.js",
+    "precache-manifest.08e02ca882bf476310a5167d386614fe.js": "/precache-manifest.08e02ca882bf476310a5167d386614fe.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e9e7b111.chunk.css.map": "/static/css/main.e9e7b111.chunk.css.map",
-    "static/js/2.829bda90.chunk.js.LICENSE.txt": "/static/js/2.829bda90.chunk.js.LICENSE.txt",
+    "static/css/main.95b91e85.chunk.css.map": "/static/css/main.95b91e85.chunk.css.map",
+    "static/js/2.402f942c.chunk.js.LICENSE.txt": "/static/js/2.402f942c.chunk.js.LICENSE.txt",
     "static/media/Code.scss": "/static/media/BG.1b854153.png",
     "static/media/a-black.png": "/static/media/a-black.8e43cc8b.png",
     "static/media/black-band.png": "/static/media/black-band.27a268a2.png",
@@ -35,13 +35,15 @@
     "static/media/Home.scss": "/static/media/noise-yelo.391ad2dd.png",
     "static/media/programing.png": "/static/media/programing.e24346d5.png",
     "static/media/resume.png": "/static/media/resume.5cc1d3dd.png",
+    "static/media/taproom.png": "/static/media/taproom.64c722fa.png",
+    "static/media/taproom2.png": "/static/media/taproom2.d35ce907.png",
     "static/media/Landing.scss": "/static/media/water-color-background.470c1460.png",
     "static/media/y-black.png": "/static/media/y-black.baec5208.png"
   },
   "entrypoints": [
     "static/js/runtime-main.33727f1d.js",
-    "static/js/2.829bda90.chunk.js",
-    "static/css/main.e9e7b111.chunk.css",
-    "static/js/main.c9eeb60d.chunk.js"
+    "static/js/2.402f942c.chunk.js",
+    "static/css/main.95b91e85.chunk.css",
+    "static/js/main.8e6701f1.chunk.js"
   ]
 }
