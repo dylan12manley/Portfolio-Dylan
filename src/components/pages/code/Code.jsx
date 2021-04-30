@@ -13,6 +13,7 @@ function Code(){
   return (
     <div id='code'>
       <Header/>
+      <h1 className='code-title'>CODE PAGE</h1>
       <div className='code-body'>
         <div className='card'>  
           <FuturoCard/> 
