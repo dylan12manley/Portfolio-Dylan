@@ -1,11 +1,11 @@
 import React, { useState }  from 'react'
 import Header from '../../shared/header/Header'
 import Footer from '../../shared/footer/Footer'
-import './Home.scss'
+import './Music.scss'
 
 import resume from '../../../assets/images/resume.png'
 
-function Home(){
+function Music(){
 //   const [isShownD, setIsShownD] = useState(false);
 //   const [isShownE, setIsShownE] = useState(false);
 //   const [isShownF, setIsShownF] = useState(false);
@@ -29,4 +29,4 @@ function Home(){
   );      
 }
 
-export default Home
+export default Music
