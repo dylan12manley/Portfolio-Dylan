@@ -11,7 +11,7 @@ import futuro3 from '../../../../assets/images/futuro-3.png'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 425,
+    maxWidth: 410,
     backgroundColor: 'black',
   },
   media: {

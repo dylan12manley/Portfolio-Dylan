@@ -9,6 +9,7 @@ import taproom2 from '../../../../assets/images/taproom2.png'
 
 const useStyles = makeStyles({
   root: {
+    width: 345,
     maxWidth: 425,
     backgroundColor: 'grey',
   },
