@@ -40,13 +40,26 @@ h1.code-title {
     }
 }
 
-@media only screen and (max-width: 846px) {
-  .code-title {
-    grid-template-columns: auto auto;   
+@media only screen and (max-width: 932px) {
+  .card {
+    padding: 2px;   
   }
   h1.code-title {
     top: 10vh;
     right: 3vw;
+  }
+}
+
+@media only screen and (max-width: 838px) {
+  .code-body {
+    grid-template-columns: auto;   
+  }
+  h1.code-title {
+    top: 0;
+    right: -2vw;
+  }
+  .card {
+    padding: 2.5vmin;
   }
 }
 
@@ -55,6 +68,7 @@ h1.code-title {
       grid-template-columns: auto;    
     }
     .card {
+      
       padding-left: 0; 
     }
     h1.code-title {
