@@ -43,6 +43,18 @@ function Home(){
             </div>
           )}
         </Link> 
+        <a id='resume' 
+            className='g-itm' 
+            href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'
+            onMouseEnter={() => setIsShownB(true)}
+            onMouseLeave={() => setIsShownB(false)}>
+          <img className='resume' src={resume} alt='resume link'></img>  
+          {isShownB && (
+            <div className='reveal reveal-r'>
+              View my resume.
+            </div>
+          )}
+        </a> 
         <a id='github' 
             className='g-itm' 
             href='https://github.com/dylan12manley'
@@ -54,19 +66,7 @@ function Home(){
               View my Github.
             </div>
           )}  
-        </a>   
-        <a id='resume' 
-            className='g-itm' 
-            href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'
-            onMouseEnter={() => setIsShownB(true)}
-            onMouseLeave={() => setIsShownB(false)}>
-          <img className='resume' src={resume} alt='resume link'></img>  
-          {isShownB && (
-            <div className='reveal'>
-              View my resume.
-            </div>
-          )}
-        </a>        
+        </a>      
       </div>
       <Footer/>
     </div>
