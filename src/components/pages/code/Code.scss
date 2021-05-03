@@ -19,10 +19,10 @@
     padding: 2.5vmin;
 }
 h1.code-title {
-  position: fixed;
+  position: relative;
   z-index: 1;
   top: 10vh;
-  right: 10vw;
+  left: 80vw;
   color: white;
   font-size: 7vmin;
   font-family: 'Roboto';
