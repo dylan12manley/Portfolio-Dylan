@@ -14,7 +14,6 @@ function Home(){
   const [isShownB, setIsShownB] = useState(false);
   const [isShownC, setIsShownC] = useState(false);
   const [isShownD, setIsShownD] = useState(false);
-  
   return (
     <div id='home'>
       <Header/>
