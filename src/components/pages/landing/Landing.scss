@@ -46,9 +46,10 @@
     height: 39vh;
     position: absolute;
     bottom: 6vh;
-    left: 6%;
+    left: 10%;
     margin-top: 2vmin;
 }
+
 
 .manley-img-a {
     height: 24vh;
@@ -76,9 +77,17 @@
 
 @media only screen and (max-width: 1460px) {
     .manley-img-m {
+        height: 27%;
+        top: 46%;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .manley-img-m {
         height: 26vmin;
         top: 46%;
-        left: 3%;
+        left: 10%;
     }
 }
 
