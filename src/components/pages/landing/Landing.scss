@@ -2,46 +2,37 @@
     display: block;
     height: 100vh;
     width: 100vw;
-    background-image: 
-    // linear-gradient(180deg, rgba(255,222,122, .50) 2%, rgba(255,122,0, .50) 7%, rgba(0, 0, 0, 0.75) 14%, rgba(0,0,0,0.92) 60%,rgba(0,0,0,0.92) 86%, rgba(0,0,0,0.95) 100%),
-    url("../../../assets/images/water-color-background.png");
+    background-image: url("../../../assets/images/water-color-background.png");
     transform: rotate(180);
     background-size: cover;
     background-position: bottom;
 }
-
 .first-name {
     padding: 4vmin;
     padding-left: 5vw;
 }
-
 .dylan-imgs {
     height: 40vh;
     max-width: 14vw;
     max-height: 18vw;
     transition: 2.5s;
 }
-
 .dylan-n {
     transform: rotate(180deg);
 }
-
 .seccond-name {
     padding: 4vmin;
     padding-top: 2vh;
     text-align: center;
 }
-
 .anley {
     min-height: 34vh;
     padding-left: calc(40px + 20vmin);
     margin-top: 10vh;
 }
-
 .manley-imgs {
     width: 12vw;
 }
-
 .manley-img-m {
     height: 39vh;
     position: absolute;
@@ -49,12 +40,9 @@
     left: 10%;
     margin-top: 2vmin;
 }
-
-
 .manley-img-a {
     height: 24vh;
 }
-
 .manley-img-l {
     height: 25vh;
 }
@@ -65,24 +53,34 @@
     height: 23vmin;
     transform: rotate(180deg);
 }
-
 .manley-img-e {
     height: 24vmin;
 }
-
 .letters {
     padding-top: 20vh; 
     padding-left: 15vw;
 }
-
-@media only screen and (max-width: 1460px) {
+@media only screen and (max-width: 1800px) {
     .manley-img-m {
-        height: 27%;
-        top: 46%;
+        height: 30%;
+        top: 49%;
         left: 10%;
     }
 }
-
+@media only screen and (max-width: 1600px) {
+    .manley-img-m {
+        height: 28%;
+        top: 45%;
+        left: 7%;
+    }
+}
+@media only screen and (max-width: 1460px) {
+    .manley-img-m {
+        height: 24%;
+        top: 43%;
+        left: 5%;
+    }
+}
 @media only screen and (max-width: 1150px) {
     .manley-img-m {
         height: 26vmin;
@@ -90,22 +88,32 @@
         left: 10%;
     }
 }
-
 @media only screen and (max-width: 1025px) {
     .manley-img-m {
-        height: 23vmin;
-        top: 15%;
-        left: 43%;
+        height: 27vmin;
+        top: 50%;
+        left: 5%;
     }
-    .manley-img-l {
+    .anley {
+        position: absolute;
+        bottom: 10%;
+    }
+    .manley-img-l, .manley-img-a {
         height: 24vmin;
     }
 }
-
+@media only screen and (max-width: 750px) {
+    .manley-img-m {
+        top: 33%;
+        left: 47%;
+        height: 19%;
+    }
+}
 @media only screen and (max-width: 490px) {
     .anley {
         position: absolute;
         width: 50vw;
+        top: 20%;
         right: 20vw;
     }
     .manley-img-a {
