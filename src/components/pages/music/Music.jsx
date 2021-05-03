@@ -2,6 +2,7 @@ import React, { useState }  from 'react'
 import Header from '../../shared/header/Header'
 import Footer from '../../shared/footer/Footer'
 import './Music.scss'
+import YouTube from 'react-youtube';
 
 import resume from '../../../assets/images/resume.png'
 
@@ -15,10 +16,15 @@ function Music(){
       <Header/>
       <div className='music'>  
         <div className='singles'>
+          <YouTube
+            videoId='YUNDBhpZxYQ'
+            />
         
         </div>      
         <div className='rawwar'>
-
+        <YouTube
+            videoId='RJZ1Qm7csnM'
+            />
         </div>
         <div className='all-that-glit'>
 
