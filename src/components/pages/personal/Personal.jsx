@@ -30,6 +30,26 @@ function Personal(){
 
         </div>   
       </div>
+      <div className='art'>  
+        <div className='art-piece'>
+        
+        </div>      
+        <div className='art-piece'>
+
+        </div>
+        <div className='art-piece'>
+
+        </div>
+        <div className='art-piece'>
+        
+        </div>      
+        <div className='art-piece'>
+
+        </div>
+        <div className='art-piece'>
+
+        </div>      
+      </div>
       <Footer/>
     </div>
   );      
