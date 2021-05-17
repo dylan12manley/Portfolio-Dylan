@@ -13,17 +13,19 @@ function Personal(){
     <div id='music'>
       <Header/>
       <div className='music'>  
-        <div className='hate-me youtube'>
-          <YouTube 
-          className='video' 
-          videoId='YUNDBhpZxYQ'/>
-        </div>      
-        <div className='rawwar youtube'>
-        <YouTube
-          className='video'
-          videoId='RJZ1Qm7csnM'/>
+        <div className='videos'>
+          <div className='hate-me youtube'>
+            <YouTube 
+            className='video' 
+            videoId='YUNDBhpZxYQ'/>
+          </div>      
+          <div className='rawwar youtube'>
+          <YouTube
+            className='video'
+            videoId='RJZ1Qm7csnM'/>
+          </div>
         </div>
-        <div className='all-that-glit'>
+        <div className='sound-cloud'>
 
         </div>   
       </div>
