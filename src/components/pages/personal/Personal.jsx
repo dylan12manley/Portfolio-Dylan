@@ -4,8 +4,6 @@ import Footer from '../../shared/footer/Footer'
 import './Personal.scss'
 import YouTube from 'react-youtube';
 
-import resume from '../../../assets/images/resume.png'
-
 function Personal(){
 //   const [isShownD, setIsShownD] = useState(false);
 //   const [isShownE, setIsShownE] = useState(false);
@@ -15,16 +13,15 @@ function Personal(){
     <div id='music'>
       <Header/>
       <div className='music'>  
-        <div className='singles'>
-          <YouTube
-            videoId='YUNDBhpZxYQ'
-            />
-        
+        <div className='hate-me youtube'>
+          <YouTube 
+          className='video' 
+          videoId='YUNDBhpZxYQ'/>
         </div>      
-        <div className='rawwar'>
+        <div className='rawwar youtube'>
         <YouTube
-            videoId='RJZ1Qm7csnM'
-            />
+          className='video'
+          videoId='RJZ1Qm7csnM'/>
         </div>
         <div className='all-that-glit'>
 
