@@ -10,7 +10,7 @@ function Personal(){
 //   const [isShownF, setIsShownF] = useState(false);
   
   return (
-    <div id='music'>
+    <div id='art'>
       <Header/>
       <div className='music'>  
         <div className='videos'>
