@@ -43,6 +43,7 @@ a:visited {
     border-radius: 10%;
     background-color: white;
     padding: 15px;
+    margin-left: 100%;
 }
 .reveal:hover {
     transition: 1s;
@@ -54,9 +55,9 @@ a:visited {
 }
 @media only screen and (max-width: 1900px) {
         @media only screen and (min-width: 1201px){
-        .github {
-            margin-left: 100%;
-        }
+        // .github {
+        //     margin-left: 100%;
+        // }
         .reveal-g {
             padding-left: 100%;
             width: 100%;
@@ -68,6 +69,9 @@ a:visited {
     .home-grid {
         grid-template-columns: auto auto;
     }
+    .github {
+            margin-left: 0;
+        }
     .resume {
         background-color: transparent;
         border-radius: 0;

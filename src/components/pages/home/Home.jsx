@@ -3,7 +3,6 @@ import Header from '../../shared/header/Header'
 import Footer from '../../shared/footer/Footer'
 import './Home.scss'
 import { Link } from "react-router-dom";
-
 import github from '../../../assets/images/github.png'
 import programing from '../../../assets/images/programing.png'
 import resume from '../../../assets/images/resume.png'
@@ -14,6 +13,7 @@ function Home(){
   const [isShownB, setIsShownB] = useState(false);
   const [isShownC, setIsShownC] = useState(false);
   const [isShownD, setIsShownD] = useState(false);
+
   return (
     <div id='home'>
       <Header/>
