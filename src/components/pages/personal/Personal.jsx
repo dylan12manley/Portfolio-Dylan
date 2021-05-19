@@ -3,7 +3,7 @@ import Header from '../../shared/header/Header'
 import Footer from '../../shared/footer/Footer'
 import './Personal.scss'
 import YouTube from 'react-youtube'
-import ReactAudioPlayer from 'react-audio-player';
+import Audio from './Audio/Audio.jsx';
 
 
 function Personal(){
@@ -24,10 +24,7 @@ function Personal(){
           </div>
         </div>
         <div className='audio-player'>
-        <ReactAudioPlayer
-          src="../../../assets/audio/clams.mp3"
-          autoPlay
-          controls
+        <Audio
         />
         </div>
       </div>
