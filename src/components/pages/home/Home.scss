@@ -53,18 +53,16 @@ a:visited {
     font-size: 5vmin;
     font-family: 'Roboto';
 }
-@media only screen and (max-width: 1900px) {
-        @media only screen and (min-width: 1201px){
-        // .github {
-        //     margin-left: 100%;
-        // }
-        .reveal-g {
-            padding-left: 100%;
-            width: 100%;
-            text-align: center;
-        }
+
+
+@media only screen and (min-width: 1201px){
+    .reveal-g {
+        padding-left: 100%;
+        width: 100%;
+        text-align: center;
     }
 }
+
 @media only screen and (max-width: 1200px) {
     .home-grid {
         grid-template-columns: auto auto;
