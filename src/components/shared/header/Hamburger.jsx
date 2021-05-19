@@ -40,8 +40,7 @@ class Hamburger extends React.Component {
             <div className="bar2"/>
             <div className="bar3"/>
           </div>
-        </div>
-            
+        </div>   
         <Motion
           defaultStyle={{ top: -50 }}
           style={{
@@ -49,14 +48,42 @@ class Hamburger extends React.Component {
               stiffness: 100,
               damping: 10
             })
-          }}
-        >
+          }}>
           {style => (
             <div className='drawer'>
             <Drawer top={style.top}>
-              <h5 className='link-p'><Link to="/code" className='link code'>Code</Link></h5>
-              <h5 className='link-p'><Link to="/" className='link landing'>Landing</Link></h5>
-              <h5 className='link-p'><Link to="/home" className='link home'>Home</Link></h5>
+              <h5 className='link-p'>
+                <Link 
+                  to="/code" 
+                  style={{color: '#92BFB1'}}
+                  className='link code'>
+                    Code
+                </Link>
+              </h5>
+              <h5 className='link-p'>
+                <Link 
+                  to="/personal" 
+                  style={{color: 'red'}}
+                  className='link home'>
+                    Art
+                </Link>
+              </h5>
+              <h5 className='link-p'>
+                <Link 
+                  to="/" 
+                  style={{color: 'red'}}
+                  className='link landing'>
+                    Landing
+                </Link>
+              </h5>
+              <h5 className='link-p'>
+                <Link 
+                  to="/home" 
+                  style={{color: 'red'}}
+                  className='link home'>
+                    Home
+                </Link>
+              </h5>
             </Drawer>
             </div>
           )}
