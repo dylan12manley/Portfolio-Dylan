@@ -1,13 +1,14 @@
 #home {
     background-image: 
-    linear-gradient(180deg, rgba(255,222,122, .50) 2%, rgba(255,122,0, .50) 7%, rgba(0, 0, 0, 0.75) 14%, rgba(0,0,0,0.92) 60%,rgba(0,0,0,0.92) 86%, rgba(0,0,0,0.95) 100%),
-    url("../../../assets/images/noise-yelo.png");
+    linear-gradient(180deg, rgba(255,222,122, .50) 2%, rgba(137,6,32, .50) 7%, rgba(209, 123, 136, 0.75) 14%, rgba(137,6,32,.92) 60%,rgba(0,0,0,0.92) 86%, rgba(0,0,0,0.95) 100%),
+    url("../../../assets/images/red-noise.png");
     background-size: cover;
     height: 100vh;
     width: 100vw;
     position: fixed;
     overflow: scroll;
     text-align: center;
+
 }
 .home-grid {
     margin: 10vmin;
