@@ -9,25 +9,7 @@ function Personal(){
   return (
     <div id='art'>
       <Header/>
-      <div className='music'>  
-        <div className='videos'>
-          <div className='hate-me youtube'>
-            <YouTube 
-              className='video' 
-              videoId='YUNDBhpZxYQ'/>
-          </div>      
-          <div className='rawwar youtube'>
-            <YouTube
-              className='video'
-              videoId='RJZ1Qm7csnM'/>
-          </div>
-          <div className='ddown youtube'>
-            <YouTube
-              className='video'
-              controls='none'
-              videoId='Ypc2Y80wXAg'/>
-          </div>
-        </div>
+      <div className='music'> 
         <div className='audio'>
           <div className='soundcloud'>
             <ReactPlayer 
@@ -55,7 +37,6 @@ function Personal(){
               url='https://soundcloud.com/dln_pdx/can-i-by-michael-simpson-and'
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
-              
             />
           </div>
           <div className='soundcloud'>
@@ -71,6 +52,24 @@ function Personal(){
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
             />
+          </div>
+        </div>
+        <div className='videos'>
+          <div className='hate-me youtube'>
+            <YouTube 
+              className='video' 
+              videoId='YUNDBhpZxYQ'/>
+          </div>      
+          <div className='rawwar youtube'>
+            <YouTube
+              className='video'
+              videoId='RJZ1Qm7csnM'/>
+          </div>
+          <div className='ddown youtube'>
+            <YouTube
+              className='video'
+              controls='none'
+              videoId='Ypc2Y80wXAg'/>
           </div>
         </div>
       </div>
