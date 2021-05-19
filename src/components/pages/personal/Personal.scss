@@ -20,12 +20,26 @@
     max-height: 50vw;
     border-radius: 5%;
 }
-.audio-player {
-    margin-bottom: 40px;
+.audio {
+    align-content: center;
+    padding: 10px calc( 10px + 2vmin);
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.soundcloud {
+    padding: 4px;
+    min-width: 300px;
 }
 
-// @media only screen and (max-width: 900px) {
-//    .video{
-//        height:
-//    }
-// }
+@media only screen and (max-width: 1250px) {
+    .audio {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .audio {
+        grid-template-columns: auto;
+        padding-left: calc( 23vw + 35px );
+    }
+}
