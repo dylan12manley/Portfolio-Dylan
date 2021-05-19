@@ -22,12 +22,14 @@
 }
 .audio {
     align-content: center;
-    padding: 10px calc( 10px + 2vmin);
+    padding: 60px calc( 10px + 2vmin);
+    padding-bottom: 0;
     display: grid;
     grid-template-columns: auto auto auto;
 }
 .soundcloud {
     padding: 4px;
+    padding-top: 25px;
     min-width: 300px;
 }
 
@@ -39,6 +41,7 @@
 
 @media only screen and (max-width: 840px) {
     .audio {
+        padding-top: 25px;
         grid-template-columns: auto;
         padding-left: calc( 23vw + 35px );
     }
