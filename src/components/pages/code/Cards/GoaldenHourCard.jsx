@@ -4,13 +4,14 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import './Card.scss'
 import goalden from '../../../../assets/images/goalden-logo.png'
 import goalden2 from '../../../../assets/images/goalden2.png'
 import goalden3 from '../../../../assets/images/goalden3.png'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 425,
+    maxWidth: 400,
     backgroundColor: '#f18e7e',
   },
   media: {

@@ -10,7 +10,7 @@ import hillcrest3 from '../../../../assets/images/hillcrest3.png'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 425,
+    maxWidth: 400,
     backgroundColor: 'grey',
   },
   media: {
