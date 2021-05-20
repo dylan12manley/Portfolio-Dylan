@@ -15,6 +15,22 @@ const Drawer = styled.div`
   z-index: 1;
 `;
 
+const linkStyle = {
+  color: '#D17B88',
+  textShadow: '0.6px 0.8px #85C4FF',
+}
+const linkStyleB = {
+  color: '#0054a3',
+  textShadow: '0.6px 0.8px #85C4FF',
+}
+const linkStyleC = {
+  color: '#890620',
+  textShadow: '0.6px 0.8px #85C4FF',
+}
+const linkStyleD = {
+  color: '#003F7A',
+  textShadow: '0.6px 0.8px #47A6FF',
+}
 class Hamburger extends React.Component {
     constructor(props) {
       super(props);
@@ -55,33 +71,33 @@ class Hamburger extends React.Component {
               <h5 className='link-p'>
                 <Link 
                   to="/code" 
-                  style={{color: '#92BFB1'}}
+                  style={linkStyle}
                   className='link code'>
-                    Code
+                    CODE
                 </Link>
               </h5>
               <h5 className='link-p'>
                 <Link 
                   to="/personal" 
-                  style={{color: 'red'}}
-                  className='link home'>
-                    Art
+                  style={linkStyleB}
+                  className='link'>
+                  ART
                 </Link>
               </h5>
               <h5 className='link-p'>
                 <Link 
                   to="/" 
-                  style={{color: 'red'}}
+                  style={linkStyleC}
                   className='link landing'>
-                    Landing
+                    LANDING
                 </Link>
               </h5>
               <h5 className='link-p'>
                 <Link 
                   to="/home" 
-                  style={{color: 'red'}}
+                  style={linkStyleD}
                   className='link home'>
-                    Home
+                    HOME
                 </Link>
               </h5>
             </Drawer>
