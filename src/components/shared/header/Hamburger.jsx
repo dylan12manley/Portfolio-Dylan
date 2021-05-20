@@ -16,7 +16,7 @@ const Drawer = styled.div`
 `;
 
 const linkStyle = {
-  color: '#D17B88',
+  color: '#003F7A',
   textShadow: '0.6px 0.8px #85C4FF',
 }
 const linkStyleB = {
@@ -28,8 +28,8 @@ const linkStyleC = {
   textShadow: '0.6px 0.8px #85C4FF',
 }
 const linkStyleD = {
-  color: '#003F7A',
-  textShadow: '0.6px 0.8px #47A6FF',
+  color: '#EB0A37',
+  textShadow: '0.6px 0.8px #003F7A',
 }
 class Hamburger extends React.Component {
     constructor(props) {
