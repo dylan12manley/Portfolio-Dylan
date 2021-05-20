@@ -14,44 +14,51 @@ function Personal(){
     <div id='art'>
       <Header/>
       <div className='music'> 
+        <h1 className='sec-title st1'>Songs I've Recorded</h1>
         <div className='audio'>
-          <div className='soundcloud'>
+          <div className='soundcloud sc1'>
             <ReactPlayer 
+            className='song'
               url='https://soundcloud.com/dln_pdx/imbibe-by-meteor-inthe-cellar'
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
               />
           </div>
           <div className='soundcloud'>
-            <ReactPlayer 
+            <ReactPlayer
+              className='song' 
               url='https://soundcloud.com/dln_pdx/video-game-variations'
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
             />
           </div>
           <div className='soundcloud'>
-            <ReactPlayer 
+            <ReactPlayer
+              className='song' 
               url='https://soundcloud.com/dln_pdx/david-higgs-mc-oboy-and-dylan-manley'
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
               />
           </div>
           <div className='soundcloud'>
-            <ReactPlayer 
+            <ReactPlayer
+              className='song' 
               url='https://soundcloud.com/dln_pdx/can-i-by-michael-simpson-and'
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
             />
           </div>
           <div className='soundcloud'>
-            <ReactPlayer 
+            <ReactPlayer
+              className='song' 
               url='https://soundcloud.com/dln_pdx/rap-church-yakisobas'
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
             />
           </div>
           <div className='soundcloud'>
-            <ReactPlayer 
+            <ReactPlayer
+              className='song' 
               url='https://soundcloud.com/dln_pdx/dlns-graybles'
               width='calc(14vw + 200px)'
               height='calc(11vw + 150px)'
@@ -59,6 +66,7 @@ function Personal(){
           </div>
         </div>
         <div className='videos'>
+          <h1 className='sec-title st2'>Music Videos I Made</h1>
           <div className='hate-me youtube'>
             <YouTube 
               className='video' 
@@ -77,6 +85,7 @@ function Personal(){
           </div>
         </div>
       </div>
+      <h1 className='sec-title st3'>Paintings I Made</h1>
       <div className='art'>  
         <div className='art-piece'>
           <img 
@@ -84,20 +93,15 @@ function Personal(){
             alt='Boy/Man Painting'
             className='painting'>
           </img>
+          <h3 className='art-title'>Boy and Man - 2009 - Oli on Canvas</h3>
         </div>      
-        <div className='art-piece'>
-          <img 
-            src={doodle} 
-            alt='Doodle Painting'
-            className='painting'>
-          </img>
-        </div>
         <div className='art-piece'>
           <img 
             src={lady} 
             alt='Lady Painting'
             className='painting'>
           </img>
+          <h3 className='art-title'>Still Life of a Lady - 2009 - Oli on Canvas</h3>
         </div>
         <div className='art-piece'>
           <img 
@@ -105,7 +109,16 @@ function Personal(){
             alt='Rooster Painting'
             className='painting'>
           </img>
+          <h3 className='art-title'>The Rooster - 2008 - Watercolor on Paper</h3>
         </div>       
+        <div className='art-piece'>
+          <img 
+            src={doodle} 
+            alt='Doodle Painting'
+            className='painting'>
+          </img>
+          <h3 className='art-title'>Doodle - 2009 - Mixed Medium</h3>
+        </div>
       </div>
       <Footer/>
     </div>
