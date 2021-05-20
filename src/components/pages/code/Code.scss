@@ -7,10 +7,11 @@
     height: 100vh;
     width: 100vw;
     overflow: scroll;
+    justify-content: center;
 }
 .code-body {
     margin: 3vmin;
-    padding-top: calc(120px + 10vmin);
+    padding-top: 120px;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -20,7 +21,7 @@
 }
 h1.code-title {
   position: relative;
-  z-index: 1;
+  z-index:0.9;
   top: 10vh;
   left: 80vw;
   color: white;
@@ -30,10 +31,12 @@ h1.code-title {
   padding: 0;
   width: 200px;
 }
+@media only screen and (max-width: 1600px) {
+  .code-body {
+    grid-template-columns: auto auto;   
+  }
+}
 @media only screen and (max-width: 1105px) {
-    .code-body {
-      grid-template-columns: auto auto;   
-    }
     h1.code-title {
       top: 10vh;
       right: 3vw;
@@ -56,7 +59,7 @@ h1.code-title {
   }
   h1.code-title {
     top: 0;
-    right: -2vw;
+    right: 1vw;
   }
   .card {
     padding: 2.5vmin;
@@ -68,12 +71,10 @@ h1.code-title {
       grid-template-columns: auto;    
     }
     .card {
-      
       padding-left: 0; 
     }
     h1.code-title {
       top: 150px;
-      left: 0;
-      padding-left: 20px;
+      padding-right: 20px;
     }
 }
