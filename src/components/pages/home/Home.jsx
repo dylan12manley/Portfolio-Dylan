@@ -44,6 +44,7 @@ function Home(){
         </Link> 
         <a id='resume' 
             target="_blank"
+            rel='noopener noreferrer'
             className='g-itm' 
             href='https://docs.google.com/document/d/e/2PACX-1vSkXF3AJwzjDb-8uZRGe42nQ631_SMA2-4QOzmxm9GkmKcJmkn46sBhWyd_NlTUEQdcg6w_3tQ9pvHR/pub'
             onMouseEnter={() => setIsShownB(true)}
@@ -57,6 +58,7 @@ function Home(){
         </a> 
         <a id='github' 
             target="_blank"
+            rel='noopener noreferrer'
             className='g-itm' 
             href='https://github.com/dylan12manley'
             onMouseEnter={() => setIsShownC(true)}
