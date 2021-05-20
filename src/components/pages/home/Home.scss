@@ -8,10 +8,10 @@
     position: fixed;
     overflow: scroll;
     text-align: center;
-
 }
 .home-grid {
     margin: 10vmin;
+    margin-left: 5vmin;
     margin-top: calc(140px + 10vmin);
     display: grid;
     grid-template-columns: auto auto auto;
@@ -48,7 +48,7 @@ a:visited {
 }
 .reveal:hover {
     transition: 1s;
-    color: #96705B;
+    color: #1F6F6A;
 }
 .reveal {
     font-size: 5vmin;
