@@ -49,3 +49,10 @@
         padding-left: calc( 23vw + 35px );
     }
 }
+@media only screen and (max-width: 500px) {
+    .audio {
+        padding: 0;
+        padding-left: 12px;
+        justify-content: center;
+    }
+}
