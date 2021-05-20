@@ -4,6 +4,10 @@ import Footer from '../../shared/footer/Footer'
 import './Personal.scss'
 import ReactPlayer from 'react-player'
 import YouTube from 'react-youtube'
+import boy from './../../../assets/images/boy-man.jpg'
+import doodle from './../../../assets/images/doodle.jpg'
+import lady from './../../../assets/images/lady.jpg'
+import rooster from './../../../assets/images/rooster.jpg'
 
 function Personal(){
   return (
@@ -75,23 +79,33 @@ function Personal(){
       </div>
       <div className='art'>  
         <div className='art-piece'>
-        
+          <img 
+            src={boy} 
+            alt='Boy/Man Painting'
+            className='painting'>
+          </img>
         </div>      
         <div className='art-piece'>
-
+          <img 
+            src={doodle} 
+            alt='Doodle Painting'
+            className='painting'>
+          </img>
         </div>
         <div className='art-piece'>
-
+          <img 
+            src={lady} 
+            alt='Lady Painting'
+            className='painting'>
+          </img>
         </div>
         <div className='art-piece'>
-        
-        </div>      
-        <div className='art-piece'>
-
-        </div>
-        <div className='art-piece'>
-
-        </div>      
+          <img 
+            src={rooster} 
+            alt='Rooster Painting'
+            className='painting'>
+          </img>
+        </div>       
       </div>
       <Footer/>
     </div>
