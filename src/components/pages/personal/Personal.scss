@@ -7,12 +7,34 @@
         linear-gradient(89deg, rgba(20,83,20,.5) 0%, rgba(133,155,255,.5) 2%, rgba(31,111,106,.5) 53%, rgba(104,71,86,.5) 79%, rgba(20,83,20,.5) 93%, rgba(133,155,255,.5) 100%),
         url('../../../assets/images/green-noise.png');
 }
+.sec-title {
+    text-align: center;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+}
+.st1 {
+    padding-top: 75px;
+}
+.st2 {
+    margin-top: 0;
+}
+.st3 {
+    margin-top: 20px;
+    background-color: #D7BEA8;
+    width: 60%;
+    margin-left: 20%;
+}
 .music{
     margin-top: calc(120px + 5vmin);
 }
 .videos {
-    padding-top: 40px;
+    margin-top: 20px;
+    padding-top: 20px;
     padding-bottom: 50px;
+    background-color: rgba(215,190,168,.5);
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 1%;
 }
 .youtube {
     margin-left: 25%;
@@ -27,6 +49,7 @@
     align-content: center;
     padding: 60px calc( 10px + 2vmin);
     padding-bottom: 0;
+    padding-top: 0;
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -36,35 +59,70 @@
     min-width: 300px;
 }
 .art {
-    align-content: center;
+    text-align: center;
     display: grid;
     grid-template-columns: auto auto;
+    padding-bottom: 50px;
 }
-.art-peice {
-    max-width: 90%;
+.art-piece {
+    padding-top: 20px;
 }
-
+.painting {
+    border-radius: 1%;
+    max-width: 80vw;
+}
+.art-title {
+    text-align: center;
+    font-family: 'Roboto';
+    background-color: #D7BEA8;
+    width: 80%;
+    margin-left: 10%;
+}
 @media only screen and (max-width: 1250px) {
     .audio {
         grid-template-columns: auto auto;
+        padding-left: 10vmin;
     }
 }
-
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1000px) {
     .audio {
-        padding-top: 25px;
-        grid-template-columns: auto;
-        padding-left: calc( 23vw + 35px );
+        grid-template-columns: auto auto;
+        padding-left: 10vmin;
     }
     .art {
-
         grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width: 840px) {
+    .st1 {
+        padding-top: 50px;
+    }
+    .audio {
+        grid-template-columns: auto;
+    }
+    .song {
+        min-width: 80vw;
+    }
+    .youtube {
+        margin-left: 4vw;
+    }
+    .video {
+        width: 80vw;
     }
 }
 @media only screen and (max-width: 500px) {
+    .st1 {
+        padding-top: 25px;
+    }
     .audio {
         padding: 0;
-        padding-left: 12px;
-        justify-content: center;
+        margin-left: 0;
+        padding-left: 12.5vw;
+    }
+    .song {
+        min-width: 80vw;
+    }
+    .youtube {
+        margin-left: 5vw;
     }
 }
