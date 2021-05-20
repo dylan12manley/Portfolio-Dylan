@@ -86,18 +86,18 @@ class Hamburger extends React.Component {
               </h5>
               <h5 className='link-p'>
                 <Link 
-                  to="/" 
+                  to="/home" 
                   style={linkStyleC}
-                  className='link landing'>
-                    LANDING
+                  className='link home'>
+                    HOME
                 </Link>
               </h5>
               <h5 className='link-p'>
                 <Link 
-                  to="/home" 
+                  to="/" 
                   style={linkStyleD}
-                  className='link home'>
-                    HOME
+                  className='link landing'>
+                    LANDING
                 </Link>
               </h5>
             </Drawer>
