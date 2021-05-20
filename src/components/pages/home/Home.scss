@@ -11,10 +11,10 @@
 }
 .home-grid {
     margin: 10vmin;
-    margin-left: 5vmin;
+    margin-left: 1vmin;
     margin-top: calc(140px + 10vmin);
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 a:link {
     text-decoration: none;
@@ -27,24 +27,23 @@ a:visited {
     margin: 1vmin;
 }
 .resume {
-    width: 28vw;
+    width: 22vw;
     background-color: white;
     border-radius: 15%;
     border: solid black 1px;
 }
 .programing {
-    width: 30vw;
+    width: 24vw;
     border-radius: 10%;
 }
 .personal {
-    width: 26vw;
+    width: 21vw;
 }
 .github {
-    width: 27vw;
+    width: 22vw;
     border-radius: 10%;
     background-color: white;
     padding: 15px;
-    margin-left: 100%;
 }
 .reveal:hover {
     transition: 1s;
@@ -55,6 +54,25 @@ a:visited {
     font-family: 'Roboto';
 }
 
+@media only screen and (max-width: 1501px){
+    .home-grid {
+      grid-template-columns: auto auto auto;
+      margin-left: 5vmin;
+    }
+    .resume {
+        width: 28vw;
+    }
+    .programing {
+        width: 30vw;
+    }
+    .personal {
+        width: 26vw;
+    }
+    .github {
+        width: 27vw;
+        margin-left: 100%;
+    }
+}
 
 @media only screen and (min-width: 1201px){
     .reveal-g {
@@ -62,6 +80,7 @@ a:visited {
         width: 100%;
         text-align: center;
     }
+    
 }
 
 @media only screen and (max-width: 1200px) {
@@ -73,7 +92,7 @@ a:visited {
         }
     .resume {
         background-color: transparent;
-        border-radius: 0;
+        border-radius: 15;
         border: solid black 1px;
     }
 }
@@ -83,5 +102,10 @@ a:visited {
     } 
     .github {
         background-color: transparent;
+    }
+    .resume {
+        background-color: white;
+        border-radius: 15%;
+        border: solid black 1px;
     }
 }
