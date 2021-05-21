@@ -50,7 +50,7 @@
     margin-left: 5vw;
 }
 .audio {
-    padding: 60px calc( 10px + 2vmin);
+    padding: calc( 10px + 2vmin);
     padding-bottom: 0;
     padding-top: 0;
     display: grid;
@@ -65,6 +65,7 @@
     text-align: center;
     display: grid;
     grid-template-columns: auto auto;
+    padding: 20px;
     padding-bottom: 50px;
 }
 .art-piece {
@@ -81,6 +82,11 @@
     width: 80%;
     margin-left: 10%;
 }
+@media only screen and (max-width: 1650px) {
+    .audio {
+        padding-left: 0;
+    }
+}
 @media only screen and (max-width: 1250px) {
     .audio {
         grid-template-columns: auto auto;
@@ -88,6 +94,9 @@
     }
     .st1 {
         padding-top: 75px;
+    }
+    .art {
+        margin: 20px;
     }
 }
 @media only screen and (max-width: 1000px) {
@@ -123,7 +132,7 @@
     .audio {
         padding: 0;
         margin-left: 0;
-        padding-left: 12.5vw;
+        padding-left: 4vw;
     }
     .song {
         min-width: 80vw;
