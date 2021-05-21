@@ -58,12 +58,12 @@ class Hamburger extends React.Component {
           </div>
         </div>   
         <Motion
-          defaultStyle={{ top: -50 }}
+          defaultStyle={{ 
+            top: -50 }}
           style={{
               top: spring(this.state.toggleState ? 0 : -70, {
-              stiffness: 100,
-              damping: 10
-            })
+                stiffness: 100,
+                damping: 10}),
           }}>
           {style => (
             <div className='drawer'>
