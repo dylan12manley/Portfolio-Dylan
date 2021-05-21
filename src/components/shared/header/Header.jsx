@@ -20,7 +20,7 @@ function Header(){
       </div>
       <div className='full-name'>
         <Link 
-            to="/" 
+            to="/home" 
             className='name-link'> 
           <img onMouseOver={fullName} src={Dylan} alt='Dylan' className='dylan name'></img>
           <img onMouseOver={fullName} src={Manley} alt='Manley' className='manley name'></img>
