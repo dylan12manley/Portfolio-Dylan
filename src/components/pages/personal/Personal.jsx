@@ -14,55 +14,57 @@ function Personal(){
     <div id='art'>
       <Header/>
       <div className='music'> 
-        <h1 className='sec-title st1'>Songs I've Recorded</h1>
-        <div className='audio'>
-          <div className='soundcloud sc1'>
-            <ReactPlayer 
-            className='song'
-              url='https://soundcloud.com/dln_pdx/imbibe-by-meteor-inthe-cellar'
-              width='calc(14vw + 200px)'
-              height='calc(11vw + 150px)'
+        <div className='songs'>
+          <h1 className='sec-title st1'>Songs I've Recorded</h1>
+          <div className='audio'>
+            <div className='soundcloud sc1'>
+              <ReactPlayer 
+              className='song'
+                url='https://soundcloud.com/dln_pdx/imbibe-by-meteor-inthe-cellar'
+                width='calc(14vw + 200px)'
+                height='calc(11vw + 150px)'
+                />
+            </div>
+            <div className='soundcloud'>
+              <ReactPlayer
+                className='song' 
+                url='https://soundcloud.com/dln_pdx/video-game-variations'
+                width='calc(14vw + 200px)'
+                height='calc(11vw + 150px)'
               />
-          </div>
-          <div className='soundcloud'>
-            <ReactPlayer
-              className='song' 
-              url='https://soundcloud.com/dln_pdx/video-game-variations'
-              width='calc(14vw + 200px)'
-              height='calc(11vw + 150px)'
-            />
-          </div>
-          <div className='soundcloud'>
-            <ReactPlayer
-              className='song' 
-              url='https://soundcloud.com/dln_pdx/david-higgs-mc-oboy-and-dylan-manley'
-              width='calc(14vw + 200px)'
-              height='calc(11vw + 150px)'
+            </div>
+            <div className='soundcloud'>
+              <ReactPlayer
+                className='song' 
+                url='https://soundcloud.com/dln_pdx/david-higgs-mc-oboy-and-dylan-manley'
+                width='calc(14vw + 200px)'
+                height='calc(11vw + 150px)'
+                />
+            </div>
+            <div className='soundcloud'>
+              <ReactPlayer
+                className='song' 
+                url='https://soundcloud.com/dln_pdx/can-i-by-michael-simpson-and'
+                width='calc(14vw + 200px)'
+                height='calc(11vw + 150px)'
               />
-          </div>
-          <div className='soundcloud'>
-            <ReactPlayer
-              className='song' 
-              url='https://soundcloud.com/dln_pdx/can-i-by-michael-simpson-and'
-              width='calc(14vw + 200px)'
-              height='calc(11vw + 150px)'
-            />
-          </div>
-          <div className='soundcloud'>
-            <ReactPlayer
-              className='song' 
-              url='https://soundcloud.com/dln_pdx/rap-church-yakisobas'
-              width='calc(14vw + 200px)'
-              height='calc(11vw + 150px)'
-            />
-          </div>
-          <div className='soundcloud'>
-            <ReactPlayer
-              className='song' 
-              url='https://soundcloud.com/dln_pdx/dlns-graybles'
-              width='calc(14vw + 200px)'
-              height='calc(11vw + 150px)'
-            />
+            </div>
+            <div className='soundcloud'>
+              <ReactPlayer
+                className='song' 
+                url='https://soundcloud.com/dln_pdx/rap-church-yakisobas'
+                width='calc(14vw + 200px)'
+                height='calc(11vw + 150px)'
+              />
+            </div>
+            <div className='soundcloud'>
+              <ReactPlayer
+                className='song' 
+                url='https://soundcloud.com/dln_pdx/dlns-graybles'
+                width='calc(14vw + 200px)'
+                height='calc(11vw + 150px)'
+              />
+            </div>
           </div>
         </div>
         <div className='videos'>
