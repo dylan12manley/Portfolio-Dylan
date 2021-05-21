@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function FuturoCard() {
+export default function TaproomCard() {
   const classes = useStyles();
 
   return (
