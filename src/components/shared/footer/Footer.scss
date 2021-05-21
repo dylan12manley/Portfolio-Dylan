@@ -11,8 +11,8 @@
     font-family: 'Roboto';
     text-align: center;
 }
-h5 {
+h5.f-name {
     margin-top: 0;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: calc(8px + 1.2vmin);
 }
