@@ -10,10 +10,12 @@ import './Header.scss'
 function Header(){
   
   function fullName(e) {
-    e.target.style.height = 'calc(40px + 5vmin)'}
+    if (e.target.style.height === 'calc(40px + 5vmin)'){
+      e.target.style.height = 'calc(20px + 5vmin)'
+    } else e.target.style.height = 'calc(40px + 5vmin)'
+  }
 
   return (
-    <>
     <div className='header'>
       <div className='h-burg'>
         <Hamburger/>
@@ -22,15 +24,22 @@ function Header(){
         <Link 
             to="/home" 
             className='name-link'> 
-          <img onMouseOver={fullName} src={Dylan} alt='Dylan' className='dylan name'></img>
-          <img onMouseOver={fullName} src={Manley} alt='Manley' className='manley name'></img>
+          <img 
+              onMouseOver={fullName} 
+              src={Dylan} alt='Dylan' 
+              className='dylan name'>    
+          </img>
+          <img 
+              onMouseOver={fullName} 
+              src={Manley} alt='Manley' 
+              className='manley name'>
+              </img>
         </Link>
       </div>
       <div>
         <img src={Band} className='b-band' alt='black band' />
       </div>
     </div>
-    </>
   );
 }
 
