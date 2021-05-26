@@ -95,7 +95,7 @@ function Personal(){
             alt='Boy/Man Painting'
             className='painting'>
           </img>
-          <h3 className='art-title'>Boy and Man - 2009 - Oli on Canvas</h3>
+          <h3 className='art-title'>Boy and Man - 2009 - Oil on Canvas</h3>
         </div>      
         <div className='art-piece'>
           <img 
@@ -103,7 +103,7 @@ function Personal(){
             alt='Lady Painting'
             className='painting'>
           </img>
-          <h3 className='art-title'>Still Life of a Lady - 2009 - Oli on Canvas</h3>
+          <h3 className='art-title'>Still Life of a Lady - 2009 - Oil on Canvas</h3>
         </div>
         <div className='art-piece'>
           <img 
