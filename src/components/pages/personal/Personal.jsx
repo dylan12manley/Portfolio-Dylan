@@ -14,6 +14,26 @@ function Personal(){
     <div id='art'>
       <Header/>
       <div className='music'> 
+      <div className='playlists'>
+        <h1 className='sec-title st0'>cookiescookiescookies</h1>
+        <div className='playlist'>
+          <div className='cookies'>
+            <ReactPlayer 
+              className='p-list'
+              url='https://soundcloud.com/dln_pdx/sets/instrumentals'
+              width='calc(14vw + 200px)'
+              height='calc(21vw + 150px)'
+              config={{
+                soundcloud: {
+                  options: { 
+                    auto_play: 'true'
+                 }
+                }
+              }}
+            />
+          </div>
+        </div>
+      </div>
         <div className='songs'>
           <h1 className='sec-title st1'>songssongssongssongs</h1>
           <div className='audio'>
