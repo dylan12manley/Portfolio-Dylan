@@ -10,26 +10,20 @@ import M from '../../../assets/images/m-black.png'
 import E from '../../../assets/images/e-black.png'
 
 function Landing(){
-  function mouseA(e) {e.target.style.transform = 'rotate(-12deg)' 
-                      e.target.style.width= '24vw'}
+  function mouseA(e) {e.target.style.transform = 'rotate(-12deg)'}
+  function mouseA2(e) {e.target.style.transform = 'rotate(0deg)'}                  
   function mouseB(e) {e.target.style.transform = 'rotate(54deg)'}
-  function mouseC(e) {e.target.style.transform = 'rotate(272deg)' 
-                      e.target.style.height= '33vmin'}
-  function mouseD(e) {e.target.style.transform = 'rotate(3deg)' 
-                      e.target.style.height= '19vh'}
-  function mouseM(e) {e.target.style.transform = 'rotate(-1.23deg)' 
-                      e.target.style.height= '55vmin'
+  function mouseB2(e) {e.target.style.transform = 'rotate(180deg)'}
+  function mouseC(e) {e.target.style.transform = 'rotate(272deg)'
+                      e.target.style.transition= '1.5s'}
+  function mouseD(e) {e.target.style.transform = 'rotate(133deg)'
+                      e.target.style.transition= '1.5s'}
+  function mouseM(e) {e.target.style.transform = 'rotate(-123deg)'
                       e.target.style.transition= '1.5s'}
   function mouseN(e) {e.target.style.transition= '5.5s'
-                      e.target.style.transform = 'rotate(-12.3deg)'
-                      e.target.style.position= 'relative' 
-                      e.target.style.height= '12vmin'
-                      e.target.style.top= '-30vmin'
-                      e.target.style.right= '-17vmin'
-                    }
-  function mouseO(e) {e.target.style.transition = '8s'
+                      e.target.style.transform = 'rotate(-93deg)'}
+  function mouseO(e) {e.target.style.transition = '2s'
                       e.target.style.transform = 'rotate(-900deg)'}
-  function clickLogo(e) {e.target.style.transform = 'rotate(-90deg)'}
   return (
     <div id='landing'>
       <div className='first-name'>
@@ -37,71 +31,73 @@ function Landing(){
           <img src={D} 
             alt='D' 
             onMouseOver={mouseA} 
-            className='dylan-imgs' 
-            onClick={clickLogo}>
+            onMouseLeave={mouseA2}
+            className='dylan-imgs'>
           </img>
           <img src={Y} 
             alt='Y' 
-            onMouseOver={mouseB} 
-            className='dylan-imgs' 
-            onClick={clickLogo}>
+            onMouseOver={mouseB}
+            onMouseLeave={mouseA2} 
+            className='dylan-imgs'>
           </img>
           <img src={L} 
             alt='L' 
             onMouseOver={mouseA}
-            className='dylan-imgs' 
-            onClick={clickLogo}>
+            onMouseLeave={mouseA2}
+            className='dylan-imgs'>
           </img>
           <img src={A} 
             alt='A' 
             onMouseOver={mouseB}
-            className='dylan-imgs' 
-            onClick={clickLogo}>
+            onMouseLeave={mouseA2}
+            className='dylan-imgs'>
           </img>
           <img src={N} 
             alt='N' 
             onMouseOver={mouseA}
-            className='dylan-imgs dylan-n' onClick={clickLogo}></img>
+            onMouseLeave={mouseB2}
+            className='dylan-imgs dylan-n'>
+          </img>
         </Link>
       </div>
       <div className='seccond-name'>
         <Link to="/home">
           <img src={M} 
               alt='M' 
-              onMouseOver={mouseM} 
-              className='manley-img-m' 
-              onClick={clickLogo}>
+              onMouseOver={mouseM}
+              onMouseLeave={mouseA2} 
+              className='manley-img-m' >
               </img>
           <div className='anley'>
             <img src={A} 
               alt='A' 
-              onMouseOver={mouseN} 
-              className='manley-img-a' 
-              onClick={clickLogo}>
+              onMouseOver={mouseN}
+              onMouseLeave={mouseA2} 
+              className='manley-img-a' >
             </img>
             <img src={N} 
               alt='N' 
-              onMouseOver={mouseC} 
-              className='manley-img-n' 
-              onClick={clickLogo}>
+              onMouseOver={mouseC}
+              onMouseLeave={mouseB2} 
+              className='manley-img-n' >
             </img>
             <img src={L} 
               alt='L' 
-              onMouseOver={mouseD} 
-              className='manley-img-l'
-              onClick={clickLogo}>
+              onMouseOver={mouseD}
+              onMouseLeave={mouseA2} 
+              className='manley-img-l'>
             </img>
             <img src={E} 
               alt='E' 
-              onMouseOver={mouseC} 
-              className='manley-img-e' 
-              onClick={clickLogo}>
+              onMouseOver={mouseC}
+              onMouseLeave={mouseA2} 
+              className='manley-img-e' >
             </img>
             <img src={Y} 
               alt='Y' 
-              onMouseOver={mouseO} 
-              className='manley-img-e'
-              onClick={clickLogo}>
+              onMouseOver={mouseO}
+              onMouseLeave={mouseA2} 
+              className='manley-img-e'>
             </img>
           </div> 
         </Link>
