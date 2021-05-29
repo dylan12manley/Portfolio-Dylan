@@ -15,7 +15,7 @@ function Personal(){
       <Header/>
       <div className='music'> 
         <div className='songs'>
-          <h1 className='sec-title st1'>Songs I've Recorded</h1>
+          <h1 className='sec-title st1'>songssongssongssongs</h1>
           <div className='audio'>
             <div className='soundcloud sc1'>
               <ReactPlayer 
@@ -68,7 +68,7 @@ function Personal(){
           </div>
         </div>
         <div className='videos'>
-          <h1 className='sec-title st2'>Music Videos I Made</h1>
+          <h1 className='sec-title st2'>videosmusicvideosmusic</h1>
           <div className='hate-me youtube'>
             <YouTube 
               className='video' 
@@ -87,7 +87,7 @@ function Personal(){
           </div>
         </div>
       </div>
-      <h1 className='sec-title st3'>Paintings I Made</h1>
+      <h1 className='sec-title st3'>paintingspaintingspaintings</h1>
       <div className='art'>  
         <div className='art-piece'>
           <img 
