@@ -13,8 +13,11 @@
     margin-bottom: 0;
     font-size: calc(4vmin + 10px);
 }
-.st1 {
-    padding-top: 100px;
+.st0 {
+    margin-top: 250px;
+    padding-bottom: 18px;
+    background-color: rgba(215,190,168,.4);
+    border-radius: 12px;
 }
 .st2 {
     margin-top: 0;
@@ -27,6 +30,17 @@
 }
 .music{
     margin-top: calc(120px + 5vmin);
+}
+.playlists {
+    border-radius: 12px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(215,190,168,.5);
+}
+.playlist {
+    margin-left: 35%;
+    background-color: rgba(133,155,255,.25);
+    border-radius: 12px;
 }
 .videos {
     margin-top: 20px;
@@ -83,6 +97,9 @@
     margin-left: 10%;
 }
 @media only screen and (max-width: 1650px) {
+    .playlist {
+        margin-left: 30%;
+    }
     .audio {
         padding-left: 0;
     }
@@ -91,9 +108,6 @@
     .audio {
         grid-template-columns: auto auto;
         padding-left: 5vmin;
-    }
-    .st1 {
-        padding-top: 75px;
     }
     .art {
         margin: 20px;
@@ -107,10 +121,16 @@
     .art {
         grid-template-columns: auto;
     }
+    .st0 {
+        margin-top: 220px;
+    }
 }
 @media only screen and (max-width: 840px) {
-    .st1 {
-        padding-top: 50px;
+    .playlist {
+        margin-left: 25%;
+    }
+    .st0 {
+        margin-top: 210px;
     }
     .audio {
         grid-template-columns: auto;
@@ -125,9 +145,17 @@
         width: 80vw;
     }
 }
+@media only screen and (max-width: 600px) {
+    .playlist {
+        margin-left: 20%;
+    }
+    .st0 {
+        margin-top: 200px;
+    }
+}
 @media only screen and (max-width: 500px) {
-    .st1 {
-        padding-top: 25px;
+    .playlist {
+        margin-left: 12%;
     }
     .audio {
         padding: 0;
@@ -139,5 +167,10 @@
     }
     .youtube {
         margin-left: 5vw;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .playlist {
+        margin-left: 7%;
     }
 }
