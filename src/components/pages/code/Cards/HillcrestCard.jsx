@@ -36,7 +36,7 @@ export default function HillcrestCard() {
           />
           <CardContent>
             <h2>Hillcrest Sports</h2>
-            <p className='card-p'>Made with a Robbie Cunningham, using a BigCommerce template with Javascript, Handlebars, React, jQuery, and more.</p>
+            <p className='card-p'>Made with Robbie Cunningham, using a BigCommerce template with Javascript, Handlebars, React, jQuery, and more.</p>
           </CardContent>
           <CardMedia
             className={classes.media}
