@@ -44,7 +44,8 @@ export default function HillcrestCard() {
             title="Hillcrest Homepage"
           />
           <CardContent>
-            <p className='card-p'>This is an <span style={{whiteSpace: 'nowrap'}}>E-commerce</span> site for an outdoor sports shop in Gresham Oregon. This project also included a custom script, made in Python. The script runs automatically every 15 minutes and syncs the physical store's inventory, using Retail Pro, with our website as well as the store's postings on third-party sites such as eBay and Sideline Swap.</p>
+            <p className='card-p'>This is an <span style={{whiteSpace: 'nowrap'}}>e-commerce</span> site for an outdoor sports shop in Gresham <span style={{whiteSpace: 'nowrap'}}>Oregon. This project also included a </span> 
+            custom script, made in Python. The script runs automatically every 15 minutes and syncs the physical store's inventory, using Retail Pro, with our website as well as the store's postings on third-party sites such as eBay and Sideline Swap.</p>
           </CardContent>
           <CardMedia
             className={classes.media}
