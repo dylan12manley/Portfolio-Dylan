@@ -20,10 +20,10 @@ function Code(){
               alt='Futuro'>
             </img>
           </a>
-          <h1 className='code-top-title'>Futuro <br/> Magazine</h1>
-          <div className='code-top-teaser'>
+          {/* <h1 className='code-top-title'>Futuro <br/> Magazine</h1> */}
+          {/* <div className='code-top-teaser'>
 
-          </div>
+          </div> */}
         </div>
         <div className='code-middle'>
           <a href='https://hillcrestsports.com/'>
