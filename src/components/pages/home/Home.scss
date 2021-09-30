@@ -6,8 +6,8 @@
     height: 100vh;
     width: 100vw;
     position: fixed;
-    // top: 65px;
     text-align: center;
+    overflow: scroll;
 }
 
 .home-grid {
@@ -29,7 +29,7 @@
     width: 25vw;
     border-radius: 10%;
     background-color: white;
-    padding: 15px;
+padding: 15px;
 }
 .programing {
     width: 32vw;
