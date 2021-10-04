@@ -6,8 +6,7 @@ import HillcrestCard from './Cards/HillcrestCard'
 import GoaldenCard from './Cards/GoaldenHourCard'
 
 function Code(){
-
-
+  
   return (
     <div id='code'>
       <Header/>
