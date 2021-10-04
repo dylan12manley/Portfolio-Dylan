@@ -6,8 +6,8 @@
     height: 100vh;
     width: 100vw;
     position: fixed;
-    overflow: scroll;
     text-align: center;
+    overflow: scroll;
 }
 .home-grid {
     margin: 10vmin;
@@ -42,8 +42,8 @@ a:visited {
 .github {
     width: 22vw;
     border-radius: 10%;
-    background-color: transparent;
-    padding: 15px;
+    background-color: white;
+padding: 15px;
 }
 .reveal:hover {
     transition: 1s;
