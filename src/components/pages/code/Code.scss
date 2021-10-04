@@ -6,36 +6,31 @@
     background-position-y: bottom;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .code-body {
-    text-align: center;
-    margin-top: 205px;
-    padding: 10px;
+    margin: 3vmin;
+    padding-top: calc(120px + 10vmin);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
 }
 
-#logo-futuro {
-    // position: absolute;
-    // top: calc(128px + 7.5vmin);
-    // left: calc(7.5vmin + 10px);
-    border-radius: 25px;
-    height: calc(30vmin + 20px);
+.card {
+    padding: 2.5vmin;
 }
-#code-top {
-    border: 2px solid white;
-    border-radius: 5px;
+@media only screen and (max-width: 1105px) {
+    .code-body {
+      grid-template-columns: auto auto;   
+    }
 }
-// .code-top-title {
-//     position: absolute;
-//     top: calc(150px + 7.5vmin);
-//     left: calc(32vw + 200px);
-//     color: white;
-//     font-size: calc(30px + 5vmin);
-// }
-.seccond-imgs {
-    // position: relative;
-    top: calc(30vmin + 20px);
-    height: calc(20px + 30vmin);
-    padding: 12px;
+
+@media only screen and (max-width: 750px) {
+    .code-body {
+      grid-template-columns: auto;    
+    }
+    .card {
+      padding-left: 0; 
+    }
 }
