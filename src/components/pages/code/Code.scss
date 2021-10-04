@@ -11,7 +11,7 @@
 
 .code-body {
     text-align: center;
-    margin-top: 175px;
+    margin-top: 205px;
     padding: 10px;
 }
 
@@ -22,7 +22,10 @@
     border-radius: 25px;
     height: calc(30vmin + 20px);
 }
-
+#code-top {
+    border: 2px solid white;
+    border-radius: 5px;
+}
 // .code-top-title {
 //     position: absolute;
 //     top: calc(150px + 7.5vmin);
