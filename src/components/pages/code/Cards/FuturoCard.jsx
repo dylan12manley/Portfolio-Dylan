@@ -43,7 +43,7 @@ export default function FuturoCard() {
               Futuro Magazine
             </h2>
             <p className='card-p'>
-            Made independently, using React, Redux, Javascript, and Firebase. Futuro Magazine is a digital platform, promoting culture, art, and fashion.  
+              Made independently, using React, Redux, Javascript, and Firebase. Futuro Magazine is a digital platform, promoting culture, art, and fashion.  
             </p>
           </CardContent>
           <CardMedia
@@ -53,13 +53,13 @@ export default function FuturoCard() {
           />
           <CardContent>
             <p className='card-p'>This was my final independent project for Epicodus. I made it for an old friend, Joseph Hoover, based out of Melbourne, Australia. </p>
-            </CardContent>
+          </CardContent>  
             <CardMedia
             className={classes.img2}
             image={futuro3}
             title="Futuro Article Bottom"
-          />
-            <CardContent>
+            />
+          <CardContent>
             <p className='card-p'> I have also created a second site for the writers portal. There is a login/<span style={{whiteSpace: 'nowrap'}}>sign-up</span> option, I created using firebase's authentication. The portal mirrors the main site but has extra features for users with special privileges, like access to custom forms used to create the articles and advertisements on the site.</p>
           </CardContent>
         </CardActionArea>
