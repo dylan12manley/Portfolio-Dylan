@@ -78,3 +78,9 @@ h1.code-title {
       padding-right: 20px;
     }
 }
+
+@media only screen and (max-width: 440px) {
+  .code-body {
+    padding-top: 120px;
+  }
+}
