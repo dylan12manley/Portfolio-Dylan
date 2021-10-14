@@ -25,7 +25,6 @@ function Landing(){
   function mouseO(e) {e.target.style.transition = '2s'
                       e.target.style.transform = 'rotate(-900deg)'}
   return (
-    
     <div id='landing'>
       <div className='first-name'>
         <Link to="/home">
