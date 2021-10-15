@@ -24,11 +24,11 @@ function Home(){
             onMouseEnter={() => setIsShownA(true)}
             onMouseLeave={() => setIsShownA(false)}>
           <img className='programing' src={programing} alt='programing link'></img>  
-            {isShownA && (
-              <div className='reveal'>
-                View my programming projects.
-              </div>
-            )}
+          {isShownA && (
+            <div className='reveal'>
+              View my programming projects.
+            </div>
+          )}
         </Link>  
         <Link id='personal' 
             className='g-itm'  
@@ -36,11 +36,11 @@ function Home(){
             onMouseEnter={() => setIsShownD(true)}
             onMouseLeave={() => setIsShownD(false)}>
           <img className='personal' src={man} alt='personal link'></img>  
-            {isShownD && (
-              <div className='reveal'>
-                View my personal projects.
-              </div>
-            )}
+          {isShownD && (
+            <div className='reveal'>
+              View my personal projects.
+            </div>
+          )}
         </Link> 
         <a id='resume' 
             target="_blank"
@@ -50,11 +50,11 @@ function Home(){
             onMouseEnter={() => setIsShownB(true)}
             onMouseLeave={() => setIsShownB(false)}>
           <img className='resume' src={resume} alt='resume link'></img>  
-            {isShownB && (
-              <div className='reveal reveal-r'>
-                View my resume.
-              </div>
-            )}
+          {isShownB && (
+            <div className='reveal reveal-r'>
+              View my resume.
+            </div>
+          )}
         </a> 
         <a id='github' 
             target="_blank"
